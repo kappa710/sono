@@ -1,5 +1,6 @@
 ---
 showContent: false
+list.layoutBackgroundHeaderSpace : false
 ---
 
 è IL TEMPO DI FARE 
