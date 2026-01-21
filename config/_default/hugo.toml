@@ -1,5 +1,5 @@
 theme = "blowfish"
-baseURL = "http://vale.cybersec.ovh/"
+baseURL = "https://kappa710.github.io/sono/"
 defaultContentLanguage = "en"
 enableEmoji = true
 enableRobotsTXT = true
