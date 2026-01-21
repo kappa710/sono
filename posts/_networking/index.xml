@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blowfish</title><link>http://vale.cybersec.ovh/posts/_networking/</link><description>Recent content on Blowfish</description><generator>Hugo -- gohugo.io</generator><language>it</language><copyright>© 2026</copyright><atom:link href="http://vale.cybersec.ovh/posts/_networking/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>http://vale.cybersec.ovh/posts/_networking/0-guida-per-pnetlab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/0-guida-per-pnetlab/</guid><description>&lt;h2 class="relative group"&gt;1 FAI FUNZIONARE VIRTUALIZZAZIONE AMD VT
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blowfish</title><link>https://kappa710.github.io/sono/posts/_networking/</link><description>Recent content on Blowfish</description><generator>Hugo -- gohugo.io</generator><language>it</language><copyright>© 2026</copyright><atom:link href="https://kappa710.github.io/sono/posts/_networking/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://kappa710.github.io/sono/posts/_networking/0-guida-per-pnetlab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/0-guida-per-pnetlab/</guid><description>&lt;h2 class="relative group"&gt;1 FAI FUNZIONARE VIRTUALIZZAZIONE AMD VT
  &lt;div id="1-fai-funzionare-virtualizzazione-amd-vt" class="anchor"&gt;&lt;/div&gt;
  
  &lt;span
@@ -28,7 +28,7 @@ se ancora non va usa questa &lt;a href="https://gns3.com/community/featured/fixi
  &lt;/span&gt;
  
 &lt;/h2&gt;
-&lt;p&gt;installa , importa .ova e attiva nelle impostazioni macchina sezione processore AMD V&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/0-topologia-rete/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/0-topologia-rete/</guid><description>&lt;p&gt;![[Pasted image 20251218172131.png]]&lt;/p&gt;
+&lt;p&gt;installa , importa .ova e attiva nelle impostazioni macchina sezione processore AMD V&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/0-topologia-rete/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/0-topologia-rete/</guid><description>&lt;p&gt;![[Pasted image 20251218172131.png]]&lt;/p&gt;
 
 &lt;h3 class="relative group"&gt;Bus
  &lt;div id="bus" class="anchor"&gt;&lt;/div&gt;
@@ -97,7 +97,7 @@ se ancora non va usa questa &lt;a href="https://gns3.com/community/featured/fixi
  &lt;/span&gt;
  
 &lt;/h3&gt;
-&lt;p&gt;nodi collegati a hub centrale&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/1--pila-iso-osi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/1--pila-iso-osi/</guid><description>&lt;table&gt;
+&lt;p&gt;nodi collegati a hub centrale&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/1--pila-iso-osi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/1--pila-iso-osi/</guid><description>&lt;table&gt;
  &lt;thead&gt;
  &lt;tr&gt;
  &lt;th&gt;LIVELLO&lt;/th&gt;
@@ -164,7 +164,7 @@ se ancora non va usa questa &lt;a href="https://gns3.com/community/featured/fixi
  &lt;/span&gt;
  
 &lt;/h5&gt;
-&lt;p&gt;data strip off DE-ENCAPSULATION&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/2-pila-tcp-ip/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/2-pila-tcp-ip/</guid><description>&lt;table&gt;
+&lt;p&gt;data strip off DE-ENCAPSULATION&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/2-pila-tcp-ip/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/2-pila-tcp-ip/</guid><description>&lt;table&gt;
  &lt;thead&gt;
  &lt;tr&gt;
  &lt;th&gt;Numero&lt;/th&gt;
@@ -223,7 +223,7 @@ SYNC , SYNC + ACK , ACK&lt;/p&gt;
  &lt;/span&gt;
  
 &lt;/h5&gt;
-&lt;p&gt;RST ( RESET)&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/5-etherchannel/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/5-etherchannel/</guid><description>&lt;h6 class="relative group"&gt;Come creare
+&lt;p&gt;RST ( RESET)&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/5-etherchannel/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/5-etherchannel/</guid><description>&lt;h6 class="relative group"&gt;Come creare
  &lt;div id="come-creare" class="anchor"&gt;&lt;/div&gt;
  
  &lt;span
@@ -245,7 +245,7 @@ Comando : channel-group 1 mode on&lt;/p&gt;
  
 &lt;/h5&gt;
 &lt;p&gt;esci da interfacce e usa comando
-interface port-channel 1&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/6-vlan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/6-vlan/</guid><description>&lt;h5 class="relative group"&gt;cosa è VLAN
+interface port-channel 1&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/6-vlan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/6-vlan/</guid><description>&lt;h5 class="relative group"&gt;cosa è VLAN
  &lt;div id="cosa-è-vlan" class="anchor"&gt;&lt;/div&gt;
  
  &lt;span
@@ -276,7 +276,7 @@ interface port-channel 1&lt;/p&gt;</description></item><item><title/><link>http:
  &lt;/span&gt;
  
 &lt;/h3&gt;
-&lt;p&gt;trunk e access e concetto di porta , puoi combinare come vuoi quale native/untagged in trunk basta che dispotivo altra parte porta configurato nella stessa maniera&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/acl--accesso-control-list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/acl--accesso-control-list/</guid><description>&lt;h4 class="relative group"&gt;a cose serve ?
+&lt;p&gt;trunk e access e concetto di porta , puoi combinare come vuoi quale native/untagged in trunk basta che dispotivo altra parte porta configurato nella stessa maniera&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/acl--accesso-control-list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/acl--accesso-control-list/</guid><description>&lt;h4 class="relative group"&gt;a cose serve ?
  &lt;div id="a-cose-serve-" class="anchor"&gt;&lt;/div&gt;
  
  &lt;span
@@ -307,7 +307,7 @@ interface port-channel 1&lt;/p&gt;</description></item><item><title/><link>http:
  &lt;/span&gt;
  
 &lt;/h4&gt;
-&lt;p&gt;implicit deny su ogni singola ACL e vengono lette (da numero piu basso a piu alto) finche occorrenza non corrisponde&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/arp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/arp/</guid><description>&lt;h4 class="relative group"&gt;a cosa serve?
+&lt;p&gt;implicit deny su ogni singola ACL e vengono lette (da numero piu basso a piu alto) finche occorrenza non corrisponde&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/arp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/arp/</guid><description>&lt;h4 class="relative group"&gt;a cosa serve?
  &lt;div id="a-cosa-serve" class="anchor"&gt;&lt;/div&gt;
  
  &lt;span
@@ -327,7 +327,7 @@ interface port-channel 1&lt;/p&gt;</description></item><item><title/><link>http:
  &lt;/span&gt;
  
 &lt;/h4&gt;
-&lt;p&gt;perchè quando craftiamo il pacchetto ( seguendo pila TCP / IP ) dobbiamo inserire anche info per layer 2 che richiede MAC address di source e dest&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/cli/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/cli/</guid><description>&lt;h6 class="relative group"&gt;per cosa sta CLI ?
+&lt;p&gt;perchè quando craftiamo il pacchetto ( seguendo pila TCP / IP ) dobbiamo inserire anche info per layer 2 che richiede MAC address di source e dest&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/cli/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/cli/</guid><description>&lt;h6 class="relative group"&gt;per cosa sta CLI ?
  &lt;div id="per-cosa-sta-cli-" class="anchor"&gt;&lt;/div&gt;
  
  &lt;span
@@ -358,7 +358,7 @@ interface port-channel 1&lt;/p&gt;</description></item><item><title/><link>http:
  &lt;/span&gt;
  
 &lt;/h6&gt;
-&lt;p&gt;PuTTy&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/dhcp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/dhcp/</guid><description>&lt;p&gt;Dynamic Host Configuration Protocol&lt;/p&gt;
+&lt;p&gt;PuTTy&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/dhcp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/dhcp/</guid><description>&lt;p&gt;Dynamic Host Configuration Protocol&lt;/p&gt;
 &lt;p&gt;4 fasi DORA
 DHCP &lt;strong&gt;D&lt;/strong&gt;iscover (broadcast)
 DHCP &lt;strong&gt;O&lt;/strong&gt;ffer (unicast)
@@ -379,11 +379,11 @@ client invia a porta 68 udp , server risponde a porta 67&lt;/p&gt;
 &lt;p&gt;cosa è APIPA
 AUTOMATIC PRIVATE IP ADDRESSING
 meccanismo che permette a host di avere proprio ip privato quando non riesce ad avere uno da un dhcp
-&lt;code&gt;169.254.X.X&lt;/code&gt;&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/dispositivi-di-rete/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/dispositivi-di-rete/</guid><description>&lt;p&gt;&lt;strong&gt;Firewall&lt;/strong&gt; filtra rete attraverso regole
+&lt;code&gt;169.254.X.X&lt;/code&gt;&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/dispositivi-di-rete/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/dispositivi-di-rete/</guid><description>&lt;p&gt;&lt;strong&gt;Firewall&lt;/strong&gt; filtra rete attraverso regole
 &lt;strong&gt;IPS&lt;/strong&gt; monitora traffico reale per rilevare anomalie e previene gli attacchi
 &lt;strong&gt;IDS&lt;/strong&gt; monitora traffico reale e generale avvisi&lt;/p&gt;
 &lt;p&gt;Firewall e IPS in linea a cascata
-IDS in parallelo ascolta passivamente&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/dns/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/dns/</guid><description>&lt;h5 class="relative group"&gt;cosa fa DNS ?
+IDS in parallelo ascolta passivamente&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/dns/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/dns/</guid><description>&lt;h5 class="relative group"&gt;cosa fa DNS ?
  &lt;div id="cosa-fa-dns-" class="anchor"&gt;&lt;/div&gt;
  
  &lt;span
@@ -434,7 +434,7 @@ esempio: google(hostname).it ( top - level domain)&lt;/p&gt;
  
 &lt;/h3&gt;
 &lt;p&gt;porzione spazio dei nomi di dominio gestista da una organizzazione o amministratore
-ATTENTO : sottodominio puo far parte di stessa zona DNS o altra (Delegazione)&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/icmp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/icmp/</guid><description>&lt;p&gt;Internet Control Message Protocol (Layer 3)
+ATTENTO : sottodominio puo far parte di stessa zona DNS o altra (Delegazione)&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/icmp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/icmp/</guid><description>&lt;p&gt;Internet Control Message Protocol (Layer 3)
 usato per network discovery e security&lt;/p&gt;
 &lt;p&gt;i piu usati comandi sono&lt;/p&gt;
 
@@ -459,7 +459,7 @@ usato per network discovery e security&lt;/p&gt;
  
 &lt;/h2&gt;
 &lt;p&gt;permette di rilevare router che pacchetto percorre
-sfrutta TTL&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/interfacce-e-cavi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/interfacce-e-cavi/</guid><description>&lt;h6 class="relative group"&gt;Cosa è Ethernet?
+sfrutta TTL&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/interfacce-e-cavi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/interfacce-e-cavi/</guid><description>&lt;h6 class="relative group"&gt;Cosa è Ethernet?
  &lt;div id="cosa-è-ethernet" class="anchor"&gt;&lt;/div&gt;
  
  &lt;span
@@ -501,7 +501,7 @@ sfrutta TTL&lt;/p&gt;</description></item><item><title/><link>http://vale.cybers
  &lt;/span&gt;
  
 &lt;/h5&gt;
-&lt;p&gt;velocità bit per secondo , archiviazione in byte&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/ip-v6/come-formato-ipv6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/ip-v6/come-formato-ipv6/</guid><description>&lt;h3 class="relative group"&gt;GLOBAL ROUTING PREFIX
+&lt;p&gt;velocità bit per secondo , archiviazione in byte&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/ip-v6/come-formato-ipv6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/ip-v6/come-formato-ipv6/</guid><description>&lt;h3 class="relative group"&gt;GLOBAL ROUTING PREFIX
  &lt;div id="global-routing-prefix" class="anchor"&gt;&lt;/div&gt;
  
  &lt;span
@@ -535,7 +535,7 @@ se non multiplo di 4 devi passare a decimale e da decimale a binario&lt;/p&gt;
  
 &lt;/h3&gt;
 &lt;p&gt;secondo blocco da 16 bit
-usato da Enterprise per subent&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/ip-v6/configurazione-cisco/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/ip-v6/configurazione-cisco/</guid><description>&lt;p&gt;per attivare routing
+usato da Enterprise per subent&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/ip-v6/configurazione-cisco/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/ip-v6/configurazione-cisco/</guid><description>&lt;p&gt;per attivare routing
 &lt;code&gt;ipv6 unicast-routing&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;vai in interfaccia
 &lt;code&gt;ipv6 address ip/subenet&lt;/code&gt;
@@ -544,7 +544,7 @@ per generare automaticamente interface host da mac address interfaccia
 &lt;p&gt;per visualizzare interfacce con ipv6
 &lt;code&gt;show ipv6 interface brief&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;per anycast
-&lt;code&gt;ip address ip/subnet anycast&lt;/code&gt;&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/ip-v6/eui-64/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/ip-v6/eui-64/</guid><description>&lt;h3 class="relative group"&gt;passare da MAC a 48 bit a interface identifier (64 bit)
+&lt;code&gt;ip address ip/subnet anycast&lt;/code&gt;&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/ip-v6/eui-64/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/ip-v6/eui-64/</guid><description>&lt;h3 class="relative group"&gt;passare da MAC a 48 bit a interface identifier (64 bit)
  &lt;div id="passare-da-mac-a-48-bit-a-interface-identifier-64-bit" class="anchor"&gt;&lt;/div&gt;
  
  &lt;span
@@ -587,7 +587,7 @@ per generare automaticamente interface host da mac address interfaccia
 &lt;/h2&gt;
 &lt;p&gt;0 = 0 in decimale -&amp;gt; 0000
 inverto il 7 bit -&amp;gt; 0010 -&amp;gt; 2 in decimale -&amp;gt; 2 in esadecimale
-021&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/ip-v6/ip-v6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/ip-v6/ip-v6/</guid><description>&lt;p&gt;128 bit
+021&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/ip-v6/ip-v6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/ip-v6/ip-v6/</guid><description>&lt;p&gt;128 bit
 vengono rappresentanti in esadecimali e non piu decimali come ipv4
 4bit (2^4 uguale 16) rappresentano un esadecimale
 ci sono 8 gruppi ognuno ha 4 caratteri in esadecimale separati da :&lt;/p&gt;
@@ -605,9 +605,9 @@ tutte interfacce ::/0&lt;/p&gt;
 &lt;/h2&gt;
 &lt;p&gt;un ipv6 puo essere di questo tipo che è difficile da gestire
 &lt;code&gt;2001:0db8:0000:0000:0000:ff00:0042:8329&lt;/code&gt;
-allora si usano 2 tipi di semplificazione&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/ip-v6/neighbor-discovery-protocol/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/ip-v6/neighbor-discovery-protocol/</guid><description/></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/ip-v6/solicited-node-multicast-adress/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/ip-v6/solicited-node-multicast-adress/</guid><description>&lt;p&gt;calcolato da unicast
+allora si usano 2 tipi di semplificazione&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/ip-v6/neighbor-discovery-protocol/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/ip-v6/neighbor-discovery-protocol/</guid><description/></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/ip-v6/solicited-node-multicast-adress/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/ip-v6/solicited-node-multicast-adress/</guid><description>&lt;p&gt;calcolato da unicast
 si aggiunge a ff02::1:ff ultimi 6 esadecimali del unicast&lt;/p&gt;
-&lt;p&gt;esempio ff02::1:ffa3:b1&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/ip-v6/tipi-ipv6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/ip-v6/tipi-ipv6/</guid><description>&lt;h2 class="relative group"&gt;GLOBAL UNICAST
+&lt;p&gt;esempio ff02::1:ffa3:b1&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/ip-v6/tipi-ipv6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/ip-v6/tipi-ipv6/</guid><description>&lt;h2 class="relative group"&gt;GLOBAL UNICAST
  &lt;div id="global-unicast" class="anchor"&gt;&lt;/div&gt;
  
  &lt;span
@@ -630,9 +630,9 @@ prima solo blocco 2000:/3 ora tutti quelli non usati per altri motivi&lt;/p&gt;
 &lt;/h2&gt;
 &lt;p&gt;sono indirizzi privati
 FC00::/7 prima ma ora FD
-meglio generare randomicamente rimanenti 40 bit per possibili problemi quando aziende si uniscono ecc&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/load-balancing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/load-balancing/</guid><description>&lt;p&gt;smistamento richieste
+meglio generare randomicamente rimanenti 40 bit per possibili problemi quando aziende si uniscono ecc&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/load-balancing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/load-balancing/</guid><description>&lt;p&gt;smistamento richieste
 performano health check e se server non risponde invia ad altri server prossime richieste
-ci sono algoritmi (es. Round Robin) che assegnano priorita&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/nat/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/nat/</guid><description>&lt;h3 class="relative group"&gt;perchè ci serve
+ci sono algoritmi (es. Round Robin) che assegnano priorita&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/nat/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/nat/</guid><description>&lt;h3 class="relative group"&gt;perchè ci serve
  &lt;div id="perchè-ci-serve" class="anchor"&gt;&lt;/div&gt;
  
  &lt;span
@@ -674,8 +674,8 @@ ci sono algoritmi (es. Round Robin) che assegnano priorita&lt;/p&gt;</descriptio
  
 &lt;/h2&gt;
 &lt;p&gt;molti a molti
-ma sempre 1 ip privato per 1 pubblico ma questa volta quello pubblico scelto tra pool&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/port-forwarding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/port-forwarding/</guid><description>&lt;p&gt;applicazione del NAT
-permette di reindirizzare il traffico da una porta di un indirizzo esterno a porta di indirizzare interno&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/routing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/routing/</guid><description>&lt;h5 class="relative group"&gt;indirizzo ip che di solito si da network LAN
+ma sempre 1 ip privato per 1 pubblico ma questa volta quello pubblico scelto tra pool&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/port-forwarding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/port-forwarding/</guid><description>&lt;p&gt;applicazione del NAT
+permette di reindirizzare il traffico da una porta di un indirizzo esterno a porta di indirizzare interno&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/routing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/routing/</guid><description>&lt;h5 class="relative group"&gt;indirizzo ip che di solito si da network LAN
  &lt;div id="indirizzo-ip-che-di-solito-si-da-network-lan" class="anchor"&gt;&lt;/div&gt;
  
  &lt;span
@@ -706,7 +706,7 @@ permette di reindirizzare il traffico da una porta di un indirizzo esterno a por
  &lt;/span&gt;
  
 &lt;/h5&gt;
-&lt;p&gt;funge da punto di ingresso e uscita per traffico dati tra 2 reti ma ha ruolo attivo&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/osfp-adiacenze/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/osfp-adiacenze/</guid><description>&lt;p&gt;la cosa piu importante in configurazione e troubleshooting
+&lt;p&gt;funge da punto di ingresso e uscita per traffico dati tra 2 reti ma ha ruolo attivo&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/routing/routing-dinamico/osfp-adiacenze/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/routing/routing-dinamico/osfp-adiacenze/</guid><description>&lt;p&gt;la cosa piu importante in configurazione e troubleshooting
 dopo adiacenti possono scambiarsi informazioni network&lt;/p&gt;
 &lt;p&gt;quando ospf abilitato in interfaccia invia OSPF hello a interventi regolari (10 secondi in Ethernet connection)
 Hello message su multicast 224.0.0.5
@@ -775,7 +775,7 @@ inviati in IP header con valore 89&lt;/p&gt;
 5 router devono avere tra loro stesso hello e dead timer
 6 Stessa autenticazione
 7 stessa MTU
-8 OSPF network type uguale&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/ospf-assegnazione-rid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/ospf-assegnazione-rid/</guid><description>&lt;h5 class="relative group"&gt;ASSEGNAZIONE RID
+8 OSPF network type uguale&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/routing/routing-dinamico/ospf-assegnazione-rid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/routing/routing-dinamico/ospf-assegnazione-rid/</guid><description>&lt;h5 class="relative group"&gt;ASSEGNAZIONE RID
  &lt;div id="assegnazione-rid" class="anchor"&gt;&lt;/div&gt;
  
  &lt;span
@@ -797,14 +797,14 @@ se fallisce usa ip piu alto di quelli non loopback (reale)&lt;/p&gt;
  &lt;/span&gt;
  
 &lt;/h3&gt;
-&lt;p&gt;virtuale , sempre up a meno che sistemista la spegne&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/ospf-metric/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/ospf-metric/</guid><description>&lt;p&gt;ospf metric = cost
+&lt;p&gt;virtuale , sempre up a meno che sistemista la spegne&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/routing/routing-dinamico/ospf-metric/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/routing/routing-dinamico/ospf-metric/</guid><description>&lt;p&gt;ospf metric = cost
 calcolato da bandwitdch (speed) del interfaccia
 &lt;code&gt;reference bandwidth / value interface bandwidth&lt;/code&gt;
 reference bandwitdh sempre =100 mbs
 ricorda se valore minore di 1 diventa 1
 interface 1000 = 1
 interface 10000 = 1
-puoi settare tu cost&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/ospf-network-type/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/ospf-network-type/</guid><description>&lt;p&gt;OSPF BROACAST NETOWKR TYPE
+puoi settare tu cost&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/routing/routing-dinamico/ospf-network-type/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/routing/routing-dinamico/ospf-network-type/</guid><description>&lt;p&gt;OSPF BROACAST NETOWKR TYPE
 abilitato su ethernet and FDDI interfacce in default
 Router dinamicamente scopre vicini sendendo HELLO OSPF packetsu multicast 224.0.0.5
 DR (designated router) e B(ackup)BR devono essere eletti per ogni subnet
@@ -814,7 +814,7 @@ Router non DR o BDR è DROther&lt;/p&gt;
 2 RID piu alta&lt;/p&gt;
 &lt;p&gt;router faranno piena addiacenze OSPF con BR e BDR del segmento nel network type BROADCAST
 DROther non inviano LSA tra loro
-F/C indica quanti FULL&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/ospf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/ospf/</guid><description>&lt;p&gt;Interior Protocol
+F/C indica quanti FULL&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/routing/routing-dinamico/ospf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/routing/routing-dinamico/ospf/</guid><description>&lt;p&gt;Interior Protocol
 &lt;strong&gt;Link State protocol&lt;/strong&gt; Ogni router conosce tutta topologia: ogni router invia informazione su tutti i suoi link collegati ad ogni router nella rete tramite flooding e poi ogni router calcola proprie path&lt;/p&gt;
 &lt;p&gt;Funzionamento in breve:
 ogni router floodera LSA finche tutti router del router avranno stessa mappa della rere (LSDB)&lt;/p&gt;
@@ -822,7 +822,7 @@ ogni router floodera LSA finche tutti router del router avranno stessa mappa del
 cosi ridotto tempo per calcolare rotte
 meno richieste hardware (memoria , processore)&lt;/p&gt;
 &lt;p&gt;area = set di router che condividono stessa LSDB
-AREA 0 BACKBONE speciale ogni altre aree devono essere connesse per forza a questa&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/tipi-lsa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/tipi-lsa/</guid><description>&lt;p&gt;ci sono 11 ma per CCNA 3&lt;/p&gt;
+AREA 0 BACKBONE speciale ogni altre aree devono essere connesse per forza a questa&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/routing/routing-dinamico/tipi-lsa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/routing/routing-dinamico/tipi-lsa/</guid><description>&lt;p&gt;ci sono 11 ma per CCNA 3&lt;/p&gt;
 &lt;table&gt;
  &lt;thead&gt;
  &lt;tr&gt;
@@ -869,7 +869,7 @@ lista i network attaccatai al roter OSPF&lt;/p&gt;
  
 &lt;/h2&gt;
 &lt;p&gt;generato da DR di ogni multi access network (broadcast)
-lista router attaccati al multi-access network&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/routing/routing-statico/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/routing/routing-statico/</guid><description>&lt;h5 class="relative group"&gt;indirizzo ip che di solito si da a reti di router
+lista router attaccati al multi-access network&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/routing/routing-statico/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/routing/routing-statico/</guid><description>&lt;h5 class="relative group"&gt;indirizzo ip che di solito si da a reti di router
  &lt;div id="indirizzo-ip-che-di-solito-si-da-a-reti-di-router" class="anchor"&gt;&lt;/div&gt;
  
  &lt;span
@@ -900,8 +900,8 @@ lista router attaccati al multi-access network&lt;/p&gt;</description></item><it
  &lt;/span&gt;
  
 &lt;/h5&gt;
-&lt;p&gt;distanza amministrativa , piccolo&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/routing/tabella-routing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/routing/tabella-routing/</guid><description>&lt;p&gt;L -&amp;gt; locale -&amp;gt; ip che si trova su interfaccia con /32
-C -&amp;gt; connesso -&amp;gt; subnet che si puo accedere da quella interfaccia&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/spanning-tree-protocol/1-introduzione/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/spanning-tree-protocol/1-introduzione/</guid><description>&lt;p&gt;Se mettiamo tanti switch per ridondanza -&amp;gt; problema BROADCAST STORM e MAC ADDRESS FLAPPING&lt;/p&gt;
+&lt;p&gt;distanza amministrativa , piccolo&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/routing/tabella-routing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/routing/tabella-routing/</guid><description>&lt;p&gt;L -&amp;gt; locale -&amp;gt; ip che si trova su interfaccia con /32
+C -&amp;gt; connesso -&amp;gt; subnet che si puo accedere da quella interfaccia&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/spanning-tree-protocol/1-introduzione/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/spanning-tree-protocol/1-introduzione/</guid><description>&lt;p&gt;Se mettiamo tanti switch per ridondanza -&amp;gt; problema BROADCAST STORM e MAC ADDRESS FLAPPING&lt;/p&gt;
 
 &lt;h4 class="relative group"&gt;BROADCAST STORM
  &lt;div id="broadcast-storm" class="anchor"&gt;&lt;/div&gt;
@@ -913,7 +913,7 @@ C -&amp;gt; connesso -&amp;gt; subnet che si puo accedere da quella interfaccia&
  
 &lt;/h4&gt;
 &lt;p&gt;esempio richiesta ARP -&amp;gt; switch flood a tutte le interfacce tranne quella inviata e tutti swith fanno lo stesso e cosi si crea broadcast storm perchè continua fino alla fine
-a layer 3 sta TTL a layer 2 non sta quindi fino alla fine&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/spanning-tree-protocol/2-classico-stp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/spanning-tree-protocol/2-classico-stp/</guid><description>&lt;h3 class="relative group"&gt;algoritmo 1
+a layer 3 sta TTL a layer 2 non sta quindi fino alla fine&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/spanning-tree-protocol/2-classico-stp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/spanning-tree-protocol/2-classico-stp/</guid><description>&lt;h3 class="relative group"&gt;algoritmo 1
  &lt;div id="algoritmo-1" class="anchor"&gt;&lt;/div&gt;
  
  &lt;span
@@ -941,7 +941,7 @@ a layer 3 sta TTL a layer 2 non sta quindi fino alla fine&lt;/p&gt;</description
 &lt;/h2&gt;
 &lt;p&gt;quando switch viene avviato pensa di essere root switch
 switch invia HELLO BPDU a ogni interfaccia -&amp;gt; se switch riceve HELLO BPDU minore allora non è piu root e tutti switch alla fine eleggono uno root
-dopo designazione switch non non inviano PBDU ma forwardano&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/tls-e-https/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/tls-e-https/</guid><description>&lt;h2 class="relative group"&gt;TLS
+dopo designazione switch non non inviano PBDU ma forwardano&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/tls-e-https/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/tls-e-https/</guid><description>&lt;h2 class="relative group"&gt;TLS
  &lt;div id="tls" class="anchor"&gt;&lt;/div&gt;
  
  &lt;span
@@ -968,7 +968,7 @@ fornisce integrita e riservatezza (CI del CIA)&lt;/p&gt;
 &lt;li&gt;3 way handshake del TCP (SYN,SYN+ACK,ACK)&lt;/li&gt;
 &lt;li&gt;creare sessione tls&lt;/li&gt;
 &lt;li&gt;comunicare tramite http&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/traceroute/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/traceroute/</guid><description>&lt;p&gt;traceroute = funziona con ping e ttl si invia ttl pari a 1 e il router deve rispondere con ICMP Time-to-Live a chi ha fatto richiesta&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/traffic-shaping/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/traffic-shaping/</guid><description>&lt;h6 class="relative group"&gt;a cosa serve
+&lt;/ol&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/traceroute/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/traceroute/</guid><description>&lt;p&gt;traceroute = funziona con ping e ttl si invia ttl pari a 1 e il router deve rispondere con ICMP Time-to-Live a chi ha fatto richiesta&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/traffic-shaping/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/traffic-shaping/</guid><description>&lt;h6 class="relative group"&gt;a cosa serve
  &lt;div id="a-cosa-serve" class="anchor"&gt;&lt;/div&gt;
  
  &lt;span
@@ -1000,7 +1000,7 @@ fornisce integrita e riservatezza (CI del CIA)&lt;/p&gt;
  
 &lt;/h6&gt;
 &lt;p&gt;upload : shared
-download : reverse&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/vpn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/vpn/</guid><description>&lt;p&gt;per VPN abbiamo bisogno di tunnel , subnet , interfaccia di rete virtuale sulla quale vengono inviati pacchetto con destinazione subnet della vpn (Allowed Ip)&lt;/p&gt;
+download : reverse&lt;/p&gt;</description></item><item><title/><link>https://kappa710.github.io/sono/posts/_networking/vpn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/vpn/</guid><description>&lt;p&gt;per VPN abbiamo bisogno di tunnel , subnet , interfaccia di rete virtuale sulla quale vengono inviati pacchetto con destinazione subnet della vpn (Allowed Ip)&lt;/p&gt;
 
 &lt;h5 class="relative group"&gt;come possiamo vedere vpn
  &lt;div id="come-possiamo-vedere-vpn" class="anchor"&gt;&lt;/div&gt;
@@ -1025,7 +1025,7 @@ download : reverse&lt;/p&gt;</description></item><item><title/><link>http://vale
 &lt;p&gt;mesh
 partial mesh
 hub and spoke
-si dividono per ridondanza / scalabilità / banda&lt;/p&gt;</description></item><item><title>ip4 intro</title><link>http://vale.cybersec.ovh/posts/_networking/ip-v4/ip-v4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/ip-v4/ip-v4/</guid><description>&lt;h3 class="relative group"&gt;prerequisiti
+si dividono per ridondanza / scalabilità / banda&lt;/p&gt;</description></item><item><title>ip4 intro</title><link>https://kappa710.github.io/sono/posts/_networking/ip-v4/ip-v4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/ip-v4/ip-v4/</guid><description>&lt;h3 class="relative group"&gt;prerequisiti
  &lt;div id="prerequisiti" class="anchor"&gt;&lt;/div&gt;
  
  &lt;span
@@ -1066,7 +1066,7 @@ si dividono per ridondanza / scalabilità / banda&lt;/p&gt;</description></item>
  &lt;/span&gt;
  
 &lt;/h6&gt;
-&lt;p&gt;privato o pubblico&lt;/p&gt;</description></item><item><title>Privati vs Pubblici</title><link>http://vale.cybersec.ovh/posts/_networking/ip-v4/privati-vs-pubblici/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/ip-v4/privati-vs-pubblici/</guid><description>&lt;p&gt;Gli indirzzi ipv4 si dividono in Privati e Pubblici&lt;/p&gt;
+&lt;p&gt;privato o pubblico&lt;/p&gt;</description></item><item><title>Privati vs Pubblici</title><link>https://kappa710.github.io/sono/posts/_networking/ip-v4/privati-vs-pubblici/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/ip-v4/privati-vs-pubblici/</guid><description>&lt;p&gt;Gli indirzzi ipv4 si dividono in Privati e Pubblici&lt;/p&gt;
 
 &lt;h2 class="relative group"&gt;IP PUBBLICI
  &lt;div id="ip-pubblici" class="anchor"&gt;&lt;/div&gt;
@@ -1129,4 +1129,4 @@ si dividono per ridondanza / scalabilità / banda&lt;/p&gt;</description></item>
  &lt;/span&gt;
  
 &lt;/h2&gt;
-&lt;p&gt;Indirizzi privati per convenzione fanno parta di queste subnet&lt;/p&gt;</description></item><item><title>Subnetting CHEATSHEETS</title><link>http://vale.cybersec.ovh/posts/_networking/ip-v4/esercizi-subnetting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/ip-v4/esercizi-subnetting/</guid><description>come diventare pro nel subnetting</description></item></channel></rss>
+&lt;p&gt;Indirizzi privati per convenzione fanno parta di queste subnet&lt;/p&gt;</description></item><item><title>Subnetting CHEATSHEETS</title><link>https://kappa710.github.io/sono/posts/_networking/ip-v4/esercizi-subnetting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kappa710.github.io/sono/posts/_networking/ip-v4/esercizi-subnetting/</guid><description>come diventare pro nel subnetting</description></item></channel></rss>
