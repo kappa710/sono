@@ -1,0 +1,1795 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Blowfish</title><link>http://vale.cybersec.ovh/posts/</link><description>Recent content in Posts on Blowfish</description><generator>Hugo -- gohugo.io</generator><language>it</language><copyright>© 2026</copyright><atom:link href="http://vale.cybersec.ovh/posts/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>http://vale.cybersec.ovh/posts/_ai/1-introduzione/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_ai/1-introduzione/</guid><description>&lt;p&gt;Cosa è Intelligenza artificiale
+simulare alcune capacita del intelligenza umana&lt;/p&gt;
+&lt;p&gt;Percepire l ambienete (input sensoriale , dati segnali)
+ragionare e prendere decisioni
+Imparare da esperienze e dati passate
+Agire&lt;/p&gt;
+
+&lt;h4 class="relative group"&gt;STORIA AI
+ &lt;div id="storia-ai" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#storia-ai" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h4&gt;
+&lt;p&gt;1950 Test Turing -&amp;gt; Se non si capisce se parla persona o macchina
+1956 nasce termine AI alla conferenza di Darthmouth (Shannon , Mc Carty , Minsky)
+60-70 chatbot
+80-90 crisi AI computer lenti e programmi troppo rigidi
+90-2000 rinascita grazie a ML
+2010-Oggi Deep Learning&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_ai/2-tokenizzazione/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_ai/2-tokenizzazione/</guid><description>&lt;p&gt;&lt;a href="https://projector.tensorflow.org/" target="_blank" rel="noreferrer"&gt;https://projector.tensorflow.org/&lt;/a&gt;
+la macchina non capisce linguaggio umano ma la scompone e crea dei token dei caratteri
+SCOMPONE IN TESTO IN TOKER COERENTI E ASSOCIA AD OGNI TOKEN UN NUMERO INTERO (vocabolario)
+ciao assegnato a combinazione numerica 3241
+sono altra combinazione 4321
+marco altra ancora combinazione 4865&lt;/p&gt;
+&lt;p&gt;i numeri messi nel vettore -&amp;gt; vector tocker
+esempio
+Testo : Ciao Mondo !
+token -&amp;gt; [&amp;ldquo;Ciao&amp;rdquo; , &amp;ldquo;Mondo&amp;rdquo;]
+vocabolario&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;WORD LEVEL
+ &lt;div id="word-level" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#word-level" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;semplice ma fragile&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_ai/3-apprendimento/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_ai/3-apprendimento/</guid><description>&lt;h3 class="relative group"&gt;SUPERVISIONATO
+ &lt;div id="supervisionato" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#supervisionato" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;viene allenato su dati etichettati
+input + output desiderato (label , target)
+obbiettivo = imparare relazione tra input e outp per generalizzare&lt;/p&gt;
+&lt;p&gt;istanza addrestamento coppia (input , output) imparare funzione
+f: X -&amp;gt; Y dove si sa x e y
+il modello minimizzare errore con ottimizzazioni&lt;/p&gt;
+&lt;p&gt;Tipi di problemi supervesionati
+Classificazione
+spam/non spam output categorigo (classe , etichette)&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_ai/4-generativa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_ai/4-generativa/</guid><description>&lt;p&gt;Produce nuovi contenuti di tutti i tipi
+genere nuovi combinazioni basato su apprendimento&lt;/p&gt;
+
+&lt;h4 class="relative group"&gt;FASI
+ &lt;div id="fasi" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#fasi" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h4&gt;
+&lt;p&gt;ADDRESTAMENTO
+APPRENDIMENTO (capisce pattern)
+GENERAZIONE&lt;/p&gt;
+&lt;p&gt;esempio
+se il momento vede tante poesie sa che dopo tramonto va o sera o ora&lt;/p&gt;
+&lt;p&gt;la rete neurale trasforma la descrizione di vettori visivi e il decofifica&lt;/p&gt;
+&lt;p&gt;MUSICA
+modello impara pattern sonori e genera clip coerenti in base a prompt&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_ai/5-reti-neurali/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_ai/5-reti-neurali/</guid><description>&lt;p&gt;Imitare neuroni biologici
+funzione per connessione e addattamenti
+imparano via strati successivi&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;NEURONI ARTIFICIALI
+ &lt;div id="neuroni-artificiali" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#neuroni-artificiali" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;riceva danti in input
+elabora input tramite pesi
+decide se attivarsi oppure no tramite una funzione di ativazione&lt;/p&gt;
+&lt;p&gt;Esempio Pratico
+input : nuvole peso 0.2 , temp bassa 0.2 meteo 0.9
+neurone somma input per peso
+funzione attivazione decide cosa fare&lt;/p&gt;
+&lt;p&gt;inizialmente pesi casuali ma poi aggiustati per ridurre errore
+allenare = modificare pesi&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_cloud/5-caratteristiche-cloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_cloud/5-caratteristiche-cloud/</guid><description>&lt;h3 class="relative group"&gt;On demand self - service
+ &lt;div id="on-demand-self---service" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#on-demand-self---service" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;l utente puo provisionare automaticamente risorse di calcolo&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;Broad network access
+ &lt;div id="broad-network-access" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#broad-network-access" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;accessibili tramite laptop , workstation ecc&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;Resource pooling
+ &lt;div id="resource-pooling" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#resource-pooling" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;risorse di calcolo aggregate e condivise tra molti clienti (multi-tenancy)&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_cloud/aspetti-comuni-per-ogni-tipo-cloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_cloud/aspetti-comuni-per-ogni-tipo-cloud/</guid><description>&lt;p&gt;Sicurezza
+Privacy
+Portabilità
+Reversibilità = eliminare risorse
+Conformita normativa
+Audatiilità (valutazione indipendente)&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_cloud/backup-vs-disaster-recovery-vs-b.-continuity/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_cloud/backup-vs-disaster-recovery-vs-b.-continuity/</guid><description>&lt;p&gt;backup = copia dei dati
+disaster and recovery = a fronte di disastro come cerco di ripristinare situazione prima di disastro
+si testa semestralmente
+(non è detto che se ho fatto backup -&amp;gt;)&lt;/p&gt;
+&lt;p&gt;b. continuity = ho bisogno di sistemi in parallelo (se uno va giu , altri devono prendere)
+RTO e RP0 = 0&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_cloud/cloud-computing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_cloud/cloud-computing/</guid><description>&lt;p&gt;on premise = tutto fatto da noi
+distribuzione dei servizi di calcolo
+internet (collegarsi in maniera efficace)
+abilitatore innovazione , risorse flessbili , economia di scala
+3 pillar computazione : cpu , ram , disco&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;TIPOLOGIE CLOUD
+ &lt;div id="tipologie-cloud" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#tipologie-cloud" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+
+&lt;h5 class="relative group"&gt;CLOUD PUBBLICO
+ &lt;div id="cloud-pubblico" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#cloud-pubblico" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h5&gt;
+&lt;p&gt;servizi di calcolo distribuiti su sistemi fuori da sistemi perimetro (infrastruttura) aziendale (internet ma tramite vpn)&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_cloud/disaster-and-recovery/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_cloud/disaster-and-recovery/</guid><description>&lt;p&gt;Disastro : sciagura che provoca danni ingenti (cosa grave non bug sistema)
+Recupero :
+Disaster &amp;amp; Recovery : insieme misure tecnologiche e organizzative per ripristrinare sistemi e dati infrastrutture
+Disaster &amp;amp; Recovery Plan : documento che esplicita queste (superare fattore umano)
+server per :
+SLA service level agreement&lt;/p&gt;
+&lt;p&gt;Disaster recovery -&amp;gt; si concentra su limitazione danni dopo disastro
+B. continuity -&amp;gt; si concentra su continuita 24 su 24 indipendentemente da disastri&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_cloud/migrazione/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_cloud/migrazione/</guid><description>&lt;p&gt;dipende da come fatte applicazioni cloud native (se containerizzazione)? li rendo subito cloud native oppure faccio prima migrazione poi approccio cloud(ritardo innovativo e progettuale)&lt;/p&gt;
+&lt;p&gt;strada consigliata oggi on premise -&amp;gt; Iaas -&amp;gt; uso container
+migrazioni -&amp;gt; Rehost (Iaas) , Replatform (PaaS) , Repurchase (SaaS) , Refactor (Cloud Native)&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_cloud/ruoli/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_cloud/ruoli/</guid><description>&lt;p&gt;Cloud auditor
+fa report e puoi rilasciare certificazione&lt;/p&gt;
+&lt;p&gt;Cloud service Provider
+service operation manager , deployment manager , service manager , service business manager , cloud support representative , inter cloud provider , cloud service security and risk manager , network provider&lt;/p&gt;
+&lt;p&gt;Cloud service customer&lt;/p&gt;
+&lt;p&gt;Cloud service partner
+cloud service developer, cloud service auditor,cloud service broker&lt;/p&gt;
+&lt;p&gt;Cloud service user
+user , administrator , business manager, integrator&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_cloud/tipi-storage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_cloud/tipi-storage/</guid><description>&lt;h3 class="relative group"&gt;Volume Storage
+ &lt;div id="volume-storage" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#volume-storage" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;disco rigido tradizionale (bassa latenza , dati strutturati)&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;Block storage
+ &lt;div id="block-storage" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#block-storage" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;tipo disco per nostra vm (volume asseccesibile solo da SO)&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;File storage
+ &lt;div id="file-storage" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#file-storage" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;struttura gerarchica : ottima performance e per codivisione file non scalabili&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_cose-generiche-che-non-mi-ricordo-mai/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_cose-generiche-che-non-mi-ricordo-mai/</guid><description>&lt;p&gt;sempre meglio fare whitelist ( permetto ) che blacklist(negare)
+on premise ( = in locale ) vs SAAS ( software as services in locale nulla&lt;/p&gt;
+&lt;p&gt;precendenza  per password importanza ad avvio sistema , quindi per amministratore 1&lt;/p&gt;
+&lt;p&gt;SLA (accordo livelli di servizio , livello servizio attesi)&lt;/p&gt;
+&lt;p&gt;eicar test ( vedere se antivirus funziona)&lt;/p&gt;
+&lt;p&gt;tampering = disattivare protezione&lt;/p&gt;
+&lt;p&gt;XDR da contesto alle azioni&lt;/p&gt;
+&lt;p&gt;tutti i malware :&lt;/p&gt;
+&lt;p&gt;rootkit&lt;/p&gt;
+&lt;p&gt;worm&lt;/p&gt;
+&lt;p&gt;adware&lt;/p&gt;
+&lt;p&gt;rogue&lt;/p&gt;
+&lt;p&gt;keylogger&lt;/p&gt;
+&lt;p&gt;sptyware&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_database/1-introduzione/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_database/1-introduzione/</guid><description>&lt;p&gt;&lt;strong&gt;Sistema informatico&lt;/strong&gt;
+il focus è sempre gestione (memorizzazione, ricerca, modifica) dei DATI
+e sul fatto che ogni sistema informativo comprende raccolte di informazioni di tipo omogeneo&lt;/p&gt;
+&lt;p&gt;GERARCHIA&lt;/p&gt;
+&lt;p&gt;APPLICAZIONI
+SCHEMA (informazioni organizzazione dato)
+BASE DATI
+HARDWARE E SOFTWARE&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;DATO VS INFORMAZIONE
+ &lt;div id="dato-vs-informazione" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#dato-vs-informazione" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;dato rappresentazione oggettiva e non interpretata della realta
+informazione interpretazione (risultato elaborazione dei dati)&lt;/p&gt;
+&lt;p&gt;esempio
+50 (dato) e 50 limite velocita (informazione)&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_database/11-non-strtturati-o-semi-strutturati/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_database/11-non-strtturati-o-semi-strutturati/</guid><description>&lt;p&gt;scalabilità orizzontale (aggiungono nodo affianco e non sostituisco)
+sviluppati su piu nodi (ogni nodo ha replica e viene eletto nodo primaria)
+partizionamento (interruzione nella continuità dei dati)
+teorema CAP è impossibile garantire 3 su 3 massimo 2 su 3 (coerenza : anche se utenti vedono stessa cosa devono vedere la stessa roba , disponibilità : subito risposta , tolleranza a partizioni )&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_database/2-postgresql/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_database/2-postgresql/</guid><description>&lt;p&gt;2 file di configurazione importanti&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;/pg_hba.conf&lt;/code&gt; autenticazione basata su host&lt;br&gt;
+&lt;code&gt;/postgresql.conf&lt;/code&gt; parametri server (memoria , rete)&lt;/p&gt;
+&lt;p&gt;in Postgres il Cluster permette di avere piu database nella stessa istanza ma completamente isolati tra loro
+Quando accedi da remoto devi accedere a database e creare una connessione alla volta (dal client puoi gestire piu connessioni alla volta)&lt;/p&gt;
+&lt;p&gt;ci sono 2 template
+template 1
+template 0 master (se modifichiamo template 1)
+solo proprietario database o SU puo eliminare database
+&lt;code&gt;DROP DATABASE name;&lt;/code&gt;&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_database/3-architettura-postgres/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_database/3-architettura-postgres/</guid><description>&lt;p&gt;avvio server -&amp;gt; avvio istanza di postgres -&amp;gt; postmaster&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;POSTMASTER
+ &lt;div id="postmaster" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#postmaster" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;processo principale che gestisce il server e processi backend
+postmaster funge da superivosore del processo
+funge da listener
+postmaster autenticare connessione , si crea processo backend per ogni connessione
+client puo averere piu connessioni&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ALTRI PROCESSI&lt;/strong&gt;
+autuvacum : eliminare record droppati
+bgwriter : scrive su file
+Wal Writer : writer ahead log&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_database/4-backup-e-ripristinio/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_database/4-backup-e-ripristinio/</guid><description>&lt;p&gt;backup full
+backup incrementale copia le ultime modifiche fatte
+backup differenziale copia le ultime cose aggiunte&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;backup logico
+ &lt;div id="backup-logico" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#backup-logico" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;della struttura&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;backup fisico
+ &lt;div id="backup-fisico" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#backup-fisico" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;della directory dove salvato i dati&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;continuos archiving e PITR
+ &lt;div id="continuos-archiving-e-pitr" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#continuos-archiving-e-pitr" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;backup fisici + log delle transazioni
+non bisogna fare noi il backup , lo fai in modo automatico&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_database/creazione-database/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_database/creazione-database/</guid><description>&lt;p&gt;passare a utente postrgres&lt;/p&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo -i -u postgres&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Creare database&lt;/p&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;createdb mydb&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Creare nuovo utente&lt;/p&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;psql -c &lt;span class="s2"&gt;&amp;#34;CREATE USER myuser WITH PASSWORD &amp;#39;mypassword&amp;#39;;&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;dare permessi&lt;/p&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;psql -c &lt;span class="s2"&gt;&amp;#34;GRANT ALL PRIVILEGES ON DATABASE mydb TO myuser;&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;verificare connessione , ricordati che devi accedere ad un database per come funziona cluster postgres&lt;/p&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;psql -U myuser -d mydb -h localhost -W&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_database/relazionali/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_database/relazionali/</guid><description>&lt;p&gt;dati organizzati in tabella con righe e colonne
+ogni riga RECORD unico&lt;/p&gt;
+&lt;p&gt;Chiave primaria (identificano (uno o piu attributi) univocamente ogni record)
+Chiave esterna (collegamento fra 2 tabelle)&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_database/sql/crud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_database/sql/crud/</guid><description>&lt;h2 class="relative group"&gt;SELECT
+ &lt;div id="select" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#select" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;SELECT nome_colonna FROM nome_tabella&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;INSERT
+ &lt;div id="insert" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#insert" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;pre tabindex="0"&gt;&lt;code class="language-INSERT" data-lang="INSERT"&gt;VALUES (valore_colonna1, valore_colonna2)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 class="relative group"&gt;CLAUSOLE
+ &lt;div id="clausole" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#clausole" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+
+&lt;h2 class="relative group"&gt;GROUP BY
+ &lt;div id="group-by" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#group-by" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;aggrega dati da multipli record e li gruppa in colone
+&lt;code&gt;SELECT nome_colonna, COUNT(*) FROM nome_tabella GROUP BY nome_colonna;&lt;/code&gt;&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_database/sql/databe--table--statements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_database/sql/databe--table--statements/</guid><description>&lt;h2 class="relative group"&gt;DATABASE
+ &lt;div id="database" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#database" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;CREATE DATABASE database_name;&lt;/code&gt;
+&lt;code&gt;SHOW DATBASES&lt;/code&gt;
+&lt;code&gt;USE DATABSE database_nome;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;TABLE
+ &lt;div id="table" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#table" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+
+&lt;h3 class="relative group"&gt;CREATE TABLE
+ &lt;div id="create-table" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#create-table" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;CREATE TABLE nome_tabella(
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;nome_colonna1 data_type,
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;nome_colonna2 data_type
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code&gt;SHOW TABLES;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;PER mostrare tabella
+ &lt;div id="per-mostrare-tabella" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#per-mostrare-tabella" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;DESCRIBE nome_tabella&lt;/code&gt;&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_devops/docker-compose/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_devops/docker-compose/</guid><description>&lt;p&gt;Docker Compose è utile per &lt;strong&gt;gestire più container (servizi)&lt;/strong&gt; contemporaneamente, attraverso un file YAML strutturato in 3 sezioni principali:&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;📁 Struttura Base del File &lt;code&gt;docker-compose.yml&lt;/code&gt;
+ &lt;div id="-struttura-base-del-file-docker-composeyml" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-struttura-base-del-file-docker-composeyml" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;services&lt;/strong&gt; → definisce i container (es: backend, database)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;volumes&lt;/strong&gt; → volumi condivisi e persistenti&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;networks&lt;/strong&gt; → rete virtuale tra containe&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 class="relative group"&gt;SERVICES
+ &lt;div id="services" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#services" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;services:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;	nome_servizio_1:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;		image: nome_immagine_da_prendere_da_docker 
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;		build: percorso_docker_file se lo hai
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;		container_name: nome_container
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;		enviroment:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;			NOME_VARIABILE_AMBIENTE: 1223
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;		 ports:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;			 -&amp;#34;porta macchina host: porta container&amp;#34; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;			 - &amp;#34;porta-fineportarange&amp;#34;:&amp;#34;...&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;		 volumes:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;			 - nome volume:cartella da collegare 
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;			 - file o folder su host:dove montarla nel container
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;		 command: comando shell
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;		 networks: 
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;			 -
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;			 -
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;		depends_on: servizio_che_aspetta_prima_di_partire&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;se comando è al plurale (ports, volumes) allora è consigliato usare sempre gli -&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_devops/docker/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_devops/docker/</guid><description>&lt;p&gt;Docker crea ambienti coerenti e replicabili ovunque&lt;/p&gt;
+&lt;p&gt;MACCHINE VIRTUALI vs DOCKER
+Docker condivide kernel con macchina host e questo porta a vantaggi&lt;/p&gt;
+&lt;p&gt;su DOCKER lavoriamo con &lt;strong&gt;IMMAGINI&lt;/strong&gt;,&lt;strong&gt;CONTAINER&lt;/strong&gt;,&lt;strong&gt;VOLUMI&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;IMMAGINE
+ &lt;div id="immagine" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#immagine" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Immagine&lt;/strong&gt; è un blueprint
+per costruirla ci serve un DockerFile (non ha estensione)
+e usare comando &lt;strong&gt;&lt;code&gt;docker build -t python .&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;opzione -t ci dice che useremo file dockerFile
+. dove si trova il DockerFile&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_devops/dockerfile/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_devops/dockerfile/</guid><description>&lt;p&gt;file non deve avere estensione&lt;/p&gt;
+&lt;p&gt;esempio&lt;/p&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;FROM python
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;WORKDIR /app
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;COPY . . 
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;RUN pip3 install flask
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ENV MSG=&amp;#34;BENVENUTO&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;CMD [&amp;#34;python&amp;#34;,&amp;#34;main.py&amp;#34;]&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;comandi sempre in maiuscolo&lt;/strong&gt;
+per convenzione WORKDIR è /app
+COPY . . (copia contenuto cartella dove c è immagine e mettilo in workdir)
+ENV MSG=&amp;ldquo;BENVENUTO&amp;rdquo; (metti variabile ambientale = globale per container di docker)
+RUN esegue
+CMD esegue ( ha bisogno comandi come se fossero lista di python)&lt;/p&gt;
+&lt;p&gt;RUN vs CMD
+RUN viene eseguito durante il build
+CMD quando passiamo da immagine a container&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_devops/passare-file-da-container-a-host-e-viceversa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_devops/passare-file-da-container-a-host-e-viceversa/</guid><description>&lt;p&gt;crea immagine e assegnali nome
+&lt;code&gt;podman build . --tag {nome_immagine}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;runna container in modalita interattiva
+&lt;code&gt;podman run --name {nome_container} -it {nome_immagine}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;su altro terminale creato per passare file da container -&amp;gt; host
+&lt;code&gt;podman cp {nome_container}:{posizione_file} {path}\{nome_file}&lt;/code&gt;&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_devops/teoria-devops/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_devops/teoria-devops/</guid><description>&lt;p&gt;permette a piu persone di lavorare su stesso progetto&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_devops/test-its/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_devops/test-its/</guid><description>&lt;p&gt;Boards -&amp;gt; mantenerei processo dei progetti e pianifichiamo
+Pipeline -&amp;gt; testiamo , distribuiamo codice
+Azure Monitors -&amp;gt; per vedere metriche&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;CI/CD
+ &lt;div id="cicd" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#cicd" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;C&lt;/strong&gt;ontinious &lt;strong&gt;I&lt;/strong&gt;ntegration: ogni volta che il codice viene pushato viene buidato e testato
+&lt;strong&gt;C&lt;/strong&gt;ontinious Delivery: codice buildato e testato per piu sistemi (Linux,mobile,Windows ecc)&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;CONTINIOUS IMPROVMENT
+ &lt;div id="continious-improvment" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#continious-improvment" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+
+&lt;h5 class="relative group"&gt;Pipelines
+ &lt;div id="pipelines" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#pipelines" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h5&gt;
+&lt;p&gt;Pipelines: automatizzazioni e tools che permetto CI/CD
+esempio caricare un push vede se è stabile anche buildando lo accetta e pusha sul branch
+Build Pipelines: compila il codice e fanno dei test&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_linux/archiviazione-vs-compressione/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_linux/archiviazione-vs-compressione/</guid><description>&lt;h3 class="relative group"&gt;ARCHIVIAZIONE
+ &lt;div id="archiviazione" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#archiviazione" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Archiviazione mette tanti file in un unico file .tar non comprime&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;tar -cf &lt;span class="o"&gt;{&lt;/span&gt;nome_archivio.tar&lt;span class="o"&gt;}&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;file1 da archiviare&lt;span class="o"&gt;}&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;file2 da archiviare&lt;span class="o"&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 class="relative group"&gt;ARCHIVIAZIONE e COMPRESSIONE
+ &lt;div id="archiviazione-e-compressione" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#archiviazione-e-compressione" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;mette tutto in unico file .tar e poi
+usare algoritmi per diminuire la dimensione dei file&lt;/p&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;tar -czf &lt;span class="o"&gt;{&lt;/span&gt;nome_archivio.tar.gz&lt;span class="o"&gt;}&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;file1&lt;span class="o"&gt;}&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;cartella1&lt;span class="o"&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 class="relative group"&gt;ESTRAZIONE
+ &lt;div id="estrazione" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#estrazione" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;tar -xf &lt;span class="o"&gt;{&lt;/span&gt;nome archivio&lt;span class="o"&gt;}&lt;/span&gt; -C &lt;span class="o"&gt;{&lt;/span&gt;cartella appoggio creata in precedenza&lt;span class="o"&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_linux/concatenazione-comandi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_linux/concatenazione-comandi/</guid><description>&lt;p&gt;| (pipe) passa output del comando precedente come input al comando successivo
+; non mi frega se il precedente è andato bene
+&amp;amp;&amp;amp; esegui secondo comando solo se quello di prima è andato e buon fine
+|| solo se precedente fallisce&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_linux/deamon-con-systemd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_linux/deamon-con-systemd/</guid><description>&lt;h3 class="relative group"&gt;Demone
+ &lt;div id="demone" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#demone" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;deamon è un processo che gira in background e di solito è fuori dal controllo del utente&lt;/p&gt;
+&lt;p&gt;per creare un demone crea un nuovo file con estensione &lt;code&gt;.service&lt;/code&gt; nella cartella &lt;code&gt;/etc/systemd/system&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;risorse &lt;a href="https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10/html/using_systemd_unit_files_to_customize_and_optimize_your_system/working-with-systemd-unit-files" target="_blank" rel="noreferrer"&gt;systemd Red Hat&lt;/a&gt; , &lt;a href="https://wiki.archlinux.org/title/Systemd#Writing_unit_files" target="_blank" rel="noreferrer"&gt;systemd Arch Linux&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;3 parti di un file che definisce un servizio&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;[Unit]: contiene metadati e dipendenze e quando per partire&lt;/li&gt;
+&lt;li&gt;[Service]: cosa e come fa il servizio&lt;/li&gt;
+&lt;li&gt;[Install]: come servizio deve essere collegato ad avvio automatico (per esempio systemctl enable service)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Esempio : install ci dice che fa parte cantanti , unit che si esibira dopo altro cantante&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_linux/filesystem-cosa-fanno-cartelle/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_linux/filesystem-cosa-fanno-cartelle/</guid><description>&lt;p&gt;&lt;a href="https://linuxhandbook.com/linux-directory-structure/" target="_blank" rel="noreferrer"&gt;Linux Directory Structure Explained for Beginners&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;/boot :file essenziali del sistema operativo
+/dev : dedidicati ad hardware (quando facciamo partizioni)
+/etc : file di configurazione
+/lib : librerie condivise
+/home : dati personali dagli utenti
+/mnt : montaggio per qualsiasi disco
+/opt : roba di terza parti
+/proc : file virtuali per accedere in real time a info su processi
+/root : home directory del utente root
+/sbin : comandi per amministratori (info su ram , cpu)
+/temp: file temporanei
+/usr : programmi e doc non importante
+/var : dati variabili e modificati spesso (es. logs)&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_linux/filesystem-e-i-node/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_linux/filesystem-e-i-node/</guid><description>&lt;p&gt;/root&lt;/p&gt;
+&lt;p&gt;path (percorso)
+assoluto : parte sempre da /
+relativo : parte da cwd&lt;/p&gt;
+&lt;p&gt;l = link (posizione che permette di accedere ad altro)
+d = directory
+owner gruppo&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;i-node
+ &lt;div id="i-node" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#i-node" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;serve al filesystem per ritrovare i file
+ogni file (ricorda che tutto file in linux anche cartelle) ha proprio inode che ha metadati
+I-node number (riutilizzabile se file eliminato )
+tipo file (- regular files , d directory ,)
+UID identificare
+GID (group ID) informazione al gruppo in cui si trova file
+MODE permessi dei file
+SIZE dimensione del file in byte
+TIMESTAMP data di creazione del file
+Puntatori Diretti a memoria
+Puntatori Indiretti a memoria (punta a lista i cui elementi puntano a memoria)&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_linux/hard-link-e-soft-link/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_linux/hard-link-e-soft-link/</guid><description>&lt;h3 class="relative group"&gt;HARD LINK
+ &lt;div id="hard-link" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#hard-link" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;=alias / ethichetta , condivide stesso inode (UID) (riferimento diretto al file su memoria fisica)
+punta a memoria fisica
+rimuovendo il file principale , hardlink rimane
+non si puo creare hardlink di cartelle e per file system diversi
+&lt;code&gt;ln file_da_hard_linkare hard_link&lt;/code&gt;&lt;/p&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ln file_da_hard_linkare nome_hard_link&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 class="relative group"&gt;SOFT LINK
+ &lt;div id="soft-link" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#soft-link" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;punta a file di cui fatto softlink
+è file che conteiene un collegamento
+&lt;code&gt;ln -s file_da_soft_linkare soft_link&lt;/code&gt;&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_linux/iptables/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_linux/iptables/</guid><description>&lt;p&gt;struttura comando&lt;/p&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;iptables &lt;span class="o"&gt;[&lt;/span&gt;option&lt;span class="o"&gt;]&lt;/span&gt; &lt;span class="o"&gt;[&lt;/span&gt;chain&lt;span class="o"&gt;]&lt;/span&gt; &lt;span class="o"&gt;[&lt;/span&gt;criteria&lt;span class="o"&gt;]&lt;/span&gt; -j &lt;span class="o"&gt;[&lt;/span&gt;target&lt;span class="o"&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;esempio&lt;/p&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;iptables -I INPUT &lt;span class="m"&gt;1&lt;/span&gt; -m state --state ESTABLISHED,RELATED -j ACCEPT&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 class="relative group"&gt;glossario
+ &lt;div id="glossario" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#glossario" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;tabella : insieme di catene (es. FILTER:input,output,forward NAT: ecc)
+catene : insieme di regole
+target : cosa fare con pacchetto (ACCEPT , DROP)&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;Chains (catene)
+ &lt;div id="chains-catene" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#chains-catene" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;INPUT : i pacchetti in entrata
+OUTPUT : i pacchetti in uscita
+FORWARD: pacchetti destinati ad un altro host (il nostro pc fa da proxie)
+PREROUTING: prima che i pacchetti in entrata subisco tabella routing
+POSTROUTING: dopo che i pacchetti in uscita ma applicate gia altre robe&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_linux/permessi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_linux/permessi/</guid><description>&lt;p&gt;&lt;strong&gt;R&lt;/strong&gt;EAD - &lt;strong&gt;W&lt;/strong&gt;RITE - E&lt;strong&gt;X&lt;/strong&gt;ECUTE
+e ogni owner , group , other a questi&lt;/p&gt;
+&lt;p&gt;il proprietario del file è chi crea il file ( o modificato dopo da comandi)
+il gruppo è il gruppo del proprietario del file
+other = estranei ai primi e 2&lt;/p&gt;
+
+&lt;h4 class="relative group"&gt;Versione CLASSICA
+ &lt;div id="versione-classica" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#versione-classica" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h4&gt;
+&lt;p&gt;rwx&lt;/p&gt;
+
+&lt;h4 class="relative group"&gt;Versione OTTALE
+ &lt;div id="versione-ottale" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#versione-ottale" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h4&gt;
+&lt;p&gt;r w x
+4 2 1
+quindi 0 = &amp;mdash; , 1 = &amp;ndash;x , 3 = -wx , 4 = r&amp;ndash; , 5 = r-x&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_linux/processi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_linux/processi/</guid><description>&lt;p&gt;creato quando eseguo file eseguibile (permessi di r e x)
+creato in foreground
+per background si usa il &amp;amp; alla fine comando shell&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;generazione dei processi (padre e figlio)
+ &lt;div id="generazione-dei-processi-padre-e-figlio" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#generazione-dei-processi-padre-e-figlio" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;INIT punto di inizio di tutti i processi (PID) e crea una sorta di albero
+al inizio padre e figlio quasi simili ma figlio poi si specializza in altro&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_linux/redirect-e-file-descriptor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_linux/redirect-e-file-descriptor/</guid><description>&lt;p&gt;redirect = dirigere flusso da altre parte
+tipologio redirect
+standard output &amp;gt; quello di prima lo metti nel dopo
+standard input &amp;lt; (quello che prendi dopo lo metti nel primo comando)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;2&amp;gt;&amp;amp;1&lt;/code&gt; prendi errori standard e mettilo nello stesso stream del output standard&lt;/p&gt;
+&lt;p&gt;differenza uso &lt;code&gt;2&amp;gt;&amp;amp;1&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;ATTENTO un flusso puo essere indirizzato solo da una parte e viene valutato ultima spedizione flusso
+&lt;code&gt;comando &amp;gt; ciao.txt &amp;gt; roma.txt&lt;/code&gt; scrive solo file &lt;code&gt;roma.txt&lt;/code&gt;
+&lt;code&gt;comando 2&amp;gt; errori.txt &amp;gt; output.txt&lt;/code&gt; scrive entrambi perchè diversi flussi&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_linux/ricerca-di-file/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_linux/ricerca-di-file/</guid><description>&lt;p&gt;&lt;code&gt;grep&lt;/code&gt; ricerca dentro un file&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;find&lt;/code&gt; ricerche complesse e aggiornate in tempo reale&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;locate&lt;/code&gt; ricerche velocissime ma non tempo reale per forzare aggiornamento database di locate &lt;code&gt;sudo updatedb&lt;/code&gt;&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_linux/shell/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_linux/shell/</guid><description>&lt;p&gt;nome_utente@nome_macchina&lt;/p&gt;
+&lt;p&gt;VARIABILI:&lt;/p&gt;
+&lt;p&gt;di tue tipo shell ( valgono solo per quel terminale ) vs enviroment valgono ovunque&lt;/p&gt;
+&lt;p&gt;posso definire variabile di shell cosi&lt;/p&gt;
+&lt;p&gt;cosi ASSEGNO VARIABILE nome_variabile=contenuto (senza spazio)
+per assegnare piu valori dobbiamo usare i :
+ciao=valore1:valore2:valore3&lt;/p&gt;
+&lt;p&gt;cosi la uso $nome_variabile ( posso usare anche cosi quelle di env)&lt;/p&gt;
+&lt;p&gt;per fare diventare variabile di shell → env comando export
+devono essere per convenzione in maiuscolo nomi variabili
+quale è variabile di env piu importante PATH dove vengono contenuti i percorsi separati da : dove la shell cerca i “programmi da eseguire”&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_linux/trasferimenti-file/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_linux/trasferimenti-file/</guid><description>&lt;p&gt;SCP e SFTP (SFTP tramite SSH)&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;SCP
+ &lt;div id="scp" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#scp" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+
+&lt;h5 class="relative group"&gt;uplodare un file
+ &lt;div id="uplodare-un-file" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#uplodare-un-file" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h5&gt;
+&lt;p&gt;&lt;code&gt;scp nome_file_uploadare utente@macchina:/posto/dove/fare/upload&lt;/code&gt;&lt;/p&gt;
+
+&lt;h5 class="relative group"&gt;scaricare un file
+ &lt;div id="scaricare-un-file" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#scaricare-un-file" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h5&gt;
+&lt;p&gt;&lt;code&gt;scp utente@macchina:/path/file/da/scaricare&lt;/code&gt;&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_linux/trucchetti-per-lavorare-coi-file/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_linux/trucchetti-per-lavorare-coi-file/</guid><description>&lt;h4 class="relative group"&gt;Specificare directory corrente
+ &lt;div id="specificare-directory-corrente" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#specificare-directory-corrente" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;./ &lt;/code&gt;
+Serve per non creare problemi perché se abbiamo file &lt;code&gt;-file01&lt;/code&gt;
+&lt;code&gt; cat -file01&lt;/code&gt; viene visto da shell come &lt;code&gt;cat -f ile01 &lt;/code&gt; allora dobbiamo usare &lt;code&gt; cat ./-file01&lt;/code&gt;&lt;/p&gt;
+
+&lt;h5 class="relative group"&gt;Accedere a file con spazi vuoti nel nome
+ &lt;div id="accedere-a-file-con-spazi-vuoti-nel-nome" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#accedere-a-file-con-spazi-vuoti-nel-nome" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h5&gt;
+&lt;p&gt;si accede a file con spazi vuoti nel nome usando gli apostrofi
+&lt;code&gt; cat &amp;quot;file con spazi vuoi&amp;quot;&lt;/code&gt;
+oppure si usa la &lt;br&gt;
+&lt;code&gt;cat file\ con\ spazi\ vuoti&lt;/code&gt;&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_linux/utenti/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_linux/utenti/</guid><description>&lt;h3 class="relative group"&gt;cambiare utente
+ &lt;div id="cambiare-utente" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#cambiare-utente" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;su nome_utente&lt;/code&gt;
+&lt;code&gt;-l&lt;/code&gt; permette di creare nuova shell che ha tutto quello che utente puo fare&lt;/p&gt;
+&lt;p&gt;usermod -aG sudo its
+aggiungi utente al gruppo sudo
+per permettere agli utenti didiventare sudo&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_linux/visualizzazione-e-comparazione/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_linux/visualizzazione-e-comparazione/</guid><description>&lt;p&gt;&lt;code&gt;less&lt;/code&gt;
+&lt;code&gt;cat&lt;/code&gt; :visualizza e concatena
+&lt;code&gt;head&lt;/code&gt; : visualizza prime righe
+&lt;code&gt;tail&lt;/code&gt; : visualizza ultime righe
+&lt;code&gt;wc&lt;/code&gt; : wordcount
+&lt;code&gt;diff&lt;/code&gt;&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_programmazione/_awk/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_programmazione/_awk/</guid><description>&lt;p&gt;funzione principale substring&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;awk -F &amp;quot;;&amp;quot; (separatore) '{print $2}' #stampa secndo zero $0 tutta riga&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;se vuoi usare script
+BEGIN {}
+a prescindere contenuto file (variaibli , log , messaggio iniziale)&lt;/p&gt;
+&lt;p&gt;END {}
+fine script&lt;/p&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;BEGIN {}
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{}
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;if (){}
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;else{}
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;do echo while(0==0){}
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;exit 1&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;in AWK ci sono funzioni predefinite&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_programmazione/_programmazione-asincrona/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_programmazione/_programmazione-asincrona/</guid><description>&lt;p&gt;serve per fare task in modo asincrono che non si bloccano aspettando &lt;/p&gt;
+&lt;p&gt;per I/O ( read , network ecc.)&lt;/p&gt;
+&lt;p&gt;event loop : sceglie quale runnare &lt;/p&gt;
+&lt;p&gt;async def creaa coorutine ( funzione che puoè essere messa in pausa permettendo cosi altre funzioni di funzionare e poi ripresa)&lt;/p&gt;
+&lt;p&gt;e restituisce coorutine&lt;/p&gt;
+&lt;p&gt;solo con await inzia a essere eseguita coorutine e finisce ( dobbiamo usare task affinche piu coorutine fatte insime )&lt;/p&gt;
+&lt;p&gt;che deve essre passasato a ayncio.run(funzione_asincrona())&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_programmazione/javascript/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_programmazione/javascript/</guid><description>&lt;p&gt;3 modi per definire variabili in js
+&lt;code&gt;var&lt;/code&gt; function scoped
+&lt;code&gt;let&lt;/code&gt; e &lt;code&gt;const&lt;/code&gt; block scoped
+questo controlla visibilita variabile nel codice&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;definire funzione
+ &lt;div id="definire-funzione" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#definire-funzione" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-javascript" data-lang="javascript"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="nx"&gt;Nome&lt;/span&gt;&lt;span class="p"&gt;(){&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nx"&gt;alert&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;ciao&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 class="relative group"&gt;condizionali
+ &lt;div id="condizionali" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#condizionali" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-javascript" data-lang="javascript"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;age&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;=&lt;/span&gt; &lt;span class="mi"&gt;18&lt;/span&gt;&lt;span class="p"&gt;){&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="k"&gt;else&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 class="relative group"&gt;loops
+ &lt;div id="loops" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#loops" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-javascript" data-lang="javascript"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;let&lt;/span&gt; &lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="mi"&gt;100&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="o"&gt;++&lt;/span&gt;&lt;span class="p"&gt;){&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_programmazione/shell-scripting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_programmazione/shell-scripting/</guid><description>&lt;h2 class="relative group"&gt;Variabili
+ &lt;div id="variabili" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#variabili" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;assegnazione variabile
+&lt;code&gt;numero=1&lt;/code&gt;
+&lt;code&gt;nome_variabile=&amp;quot;stringa&amp;quot;&lt;/code&gt;
+&lt;code&gt;nome_array=(&amp;quot;Questo&amp;quot; &amp;quot;è&amp;quot; &amp;quot;un&amp;quot; &amp;quot;array&amp;quot;)&lt;/code&gt;
+&lt;code&gt;output_comando_linux=$(comando_linux)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;accedere a variabile
+&lt;code&gt;&amp;quot;${nome_variabile}&amp;quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;Array
+ &lt;div id="array" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#array" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;leggere elemento in posizione
+&lt;code&gt;${array[0]}&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;IF
+ &lt;div id="if" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#if" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;if [[ condizione ]]; then
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;	echo &amp;#34; &amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;elif [[ condizione 2]]; then 
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;	echo&amp;#34;&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;else 
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;	echo &amp;#34;&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;attento se usi if al posto degli elif bisogna chiudere sempre con fi&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_programmazione/socket-programming-con-python/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_programmazione/socket-programming-con-python/</guid><description>&lt;p&gt;cosa fondamentale e fare sempre creare un socket&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM) # useremo ipv4,useremo TCP&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;qua ci sono 2 strade 1 per server e 1 per client&lt;/p&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;bind&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;120.23.12.1&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;800&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c1"&gt;# ip e porta a cui si colleghera il client&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;listen&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="c1"&gt;# mettere il server in modalita ascolto &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;accettato&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;addre&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;accept&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="c1"&gt;# restituisce il socket dove c è collegamento con client e info sul client&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;(per ogni collegamento con client diverso c è un socket diverso) , finche non stabilisce una connessione non va avanti con il codice&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_sicurezza-sistemi-e-reti/architettura-applicazione-web/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_sicurezza-sistemi-e-reti/architettura-applicazione-web/</guid><description>&lt;p&gt;Client :Presentation Tier
+Server : Logic Tier
+Database : Data Tier&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Presentazione&lt;/strong&gt;
+Autenticazione e Autorizzazione
+Validità del input
+Crittografia&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Logico&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Dati
+sensibili
+in transito
+riposo&lt;/p&gt;
+&lt;p&gt;Zero Trust ( meno privilegi meglio)&lt;/p&gt;
+&lt;p&gt;SCALABILITA
+VERTICALE
+ORIZZONTALE aggiungere altri nodi&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_sicurezza-sistemi-e-reti/infrastruttura/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_sicurezza-sistemi-e-reti/infrastruttura/</guid><description>&lt;p&gt;principali tipi di infrastruttura : tradizionale (on premise),cloud , iperconvergente (cloud con tante da funzionalita facili da integrare insieme = azure)
+![[Infrastrutture.png]]
+DATACENTER
+rack -&amp;gt; struttura fisica dove metti server , switch
+serve gruppo di continuità
+archiavizione -&amp;gt; si usano NAS ( network attached storage) passi dati a livello rete non attaccati a livello fisico
+devono avere protezione fisica (telecamere)&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_sicurezza-sistemi-e-reti/mail-server/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_sicurezza-sistemi-e-reti/mail-server/</guid><description>&lt;p&gt;usa postfix
+e configura per poter spedire a gmail &lt;a href="https://www.linuxbabe.com/mail-server/setting-up-dkim-and-spf" target="_blank" rel="noreferrer"&gt;https://www.linuxbabe.com/mail-server/setting-up-dkim-and-spf&lt;/a&gt;&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_sicurezza-sistemi-e-reti/nginx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_sicurezza-sistemi-e-reti/nginx/</guid><description>&lt;p&gt;REVERSE PROXY
+utile per load balancer (smista grossi carichi di lavoro tra vari servies)&lt;/p&gt;
+&lt;p&gt;NEL CASO USIAMO PYTHON e FRAMEWORK BACKEND&lt;br&gt;
+startare con uvicorn che crera un socket da zero nella path indicata (uds sta per unix domain socket)
+&lt;code&gt;uvicorn nome_file:istanza_principale_di_framewrok --uds ~/fast.sock&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;CONFIGURAZIONE&lt;/p&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;server { 
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; listen 80;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; listen [::]:80;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; server_name 192.168.22.87;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; location / {
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; proxy_pass http://unix:/home/user/fast.sock;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; include proxy_params;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;SERVER_NAME
+server_name aiuta nginx a fare routing in questo caso se richiesta viene da chi si è interfacciato a servizio usando ip 192.168.22.87 ( fa x)
+si usa anche per diversi nomi di dominio
+per capire come funziona server_name usa questa guida : &lt;a href="https://statuslist.app/nginx/server_name/" target="_blank" rel="noreferrer"&gt;NGINX server_name: How to use it - Status List&lt;/a&gt;&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_sicurezza-sistemi-e-reti/raid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_sicurezza-sistemi-e-reti/raid/</guid><description>&lt;p&gt;Rendaunt Array of Indipendent Disk
+ci serve per replica (non serve per backup ma accedere in maniera piu efficente e far fronte corruzione dati)&lt;/p&gt;
+&lt;p&gt;concetti piu importanti RAID&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;Striping
+ &lt;div id="striping" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#striping" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;i blocchi che normalmente sono contigui e distribuiti su in unico disco ora non sono piu continughi ma distrubuiti su piu dischi&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;Mirroring
+ &lt;div id="mirroring" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#mirroring" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;fai copia esatta del disco in altro disco
+se un disco si corrompe prende i dati da altro disco&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_sicurezza-sistemi-e-reti/scansione/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_sicurezza-sistemi-e-reti/scansione/</guid><description>&lt;h2 class="relative group"&gt;Scansione Attiva
+ &lt;div id="scansione-attiva" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#scansione-attiva" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+
+&lt;h3 class="relative group"&gt;NMAP
+ &lt;div id="nmap" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#nmap" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;RICORDA prima cosa nmap vede host è attivo attraverso ping e se non attivo interrompe scansione&lt;/p&gt;
+&lt;p&gt;fai -Pn per saltare scansione host attivo e fare scansione in ogni caso&lt;/p&gt;
+&lt;p&gt;nmap -sV ( vede attraverso payload cosa fa veramente porta ) e viene usato spesso con -sU perchè UDP ha bisogno di serie di payload inviati per vedere se porta aperta&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_sicurezza-sistemi-e-reti/ssh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_sicurezza-sistemi-e-reti/ssh/</guid><description>&lt;p&gt;Secure shell
+ha layer di crittografia
+server sshd (deamon = eseguita in background)&lt;/p&gt;
+&lt;p&gt;per vedere chi ha loggato &lt;code&gt;w&lt;/code&gt; o &lt;code&gt;who&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;come configurarla
+su client e server devi generare chiavi pubbliche e privae
+&lt;code&gt;ssh-keygen&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;attento : lascia yes password autenticazione poi dopo aver copiato chiavi puoi disattivarla
+client da la sua chiave pubblicha a server tramite comando
+&lt;code&gt;ssh-copy-id -p {porta se diversa da 22} username@remote_host&lt;/code&gt;
+client si collega al server e il server da sue chiavi pubbliche ( del server) e controlla autenticazione&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_sicurezza-sistemi-e-reti/superfici-attacco/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_sicurezza-sistemi-e-reti/superfici-attacco/</guid><description>&lt;p&gt;dhcp , arp per design insicuri ( non esisteva ai tempi autenticazione) e dobbiamo usare sicurezze in piu&lt;/p&gt;
+&lt;p&gt;possiamo sfruttare i loro design usando spoofing , man in the middle , relay&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;ATTACCO SU ARP
+ &lt;div id="attacco-su-arp" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#attacco-su-arp" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;arp spoofing attraverso comando kali linux arpsoof esempio uso possiamo aggirare dns server arp gratuito ( rispondiamo senza che nessuno abbia fatto richiesta&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_sicurezza-sistemi-e-reti/systemd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_sicurezza-sistemi-e-reti/systemd/</guid><description>&lt;p&gt;suit di supervisore di processi
+systemctl client&lt;/p&gt;
+&lt;p&gt;3 parti fondamentali di un file definisce un servizio&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;[Unit]: contiene metadati e dipendenze e quando per partire&lt;/li&gt;
+&lt;li&gt;[Service]: cosa e come fa il servizio&lt;/li&gt;
+&lt;li&gt;[Install]: come servizio deve essere collegato ad avvio automatico (per esempio systemctl enable service)&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_sicurezza-sistemi-e-reti/virtualizzazione/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_sicurezza-sistemi-e-reti/virtualizzazione/</guid><description>&lt;p&gt;vantaggi di entrambi : frammentare risorse&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CONTAINER&lt;/strong&gt;
+fai tu conteneirizzazione su linux facile (namespace , cgroup (limitare risorse),chroot (cambiare root directory)),secops(limita chiamate sistema)&lt;/p&gt;
+&lt;p&gt;Docker a isola a livello di processi
+condivide stesso kernel&lt;/p&gt;
+&lt;p&gt;DOCKER VS PODMAN
+podman : rootless
+podman: deamonless container engine , avvia container e stop&lt;/p&gt;
+
+&lt;h1 class="relative group"&gt;VIRTUAL MACHINE
+ &lt;div id="virtual-machine" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#virtual-machine" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h1&gt;
+&lt;p&gt;Subio hardware -&amp;gt; Hypervisor (super visitore )
+isoliamo hardware ( bare metal)
+punto critico hypervisor&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_sicurezza-sistemi-e-reti/vpn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_sicurezza-sistemi-e-reti/vpn/</guid><description>&lt;p&gt;Come funziona VPN
+creata un interfaccia virtuale di rete e una subnet appartente a vpn&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Indirizzamento&lt;/strong&gt;: I pacchetti dati destinati a un indirizzo nella subnet della VPN vengono inviati all&amp;rsquo;interfaccia di rete virtuale.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Incapsulamento&lt;/strong&gt;: L&amp;rsquo;interfaccia virtuale cifra i pacchetti e li &amp;ldquo;impacchetta&amp;rdquo; in un nuovo pacchetto. Questo pacchetto esterno ha come destinazione l&amp;rsquo;indirizzo IP pubblico del server VPN e utilizza la porta specificata nella configurazione.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Trasmissione&lt;/strong&gt;: Il pacchetto cifrato viene infine inviato tramite l&amp;rsquo;interfaccia di rete fisica del dispositivo (es. Wi-Fi o Ethernet) verso il server VPN.&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_sistemi-operativi/chiamate-di-sistema/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_sistemi-operativi/chiamate-di-sistema/</guid><description>&lt;p&gt;permette a programma in modalita utente di richiede e servizi a kernel (avviene switch da modalita user a modalita kernel)&lt;/p&gt;
+&lt;p&gt;piu importanti di tipo sys call : quelle di gestione dei processi
+fork -&amp;gt; dupplica processo creando processo figlio uguale
+wait -&amp;gt;
+exec-&amp;gt;
+exit -&amp;gt;&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_sistemi-operativi/file-system/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_sistemi-operativi/file-system/</guid><description>&lt;p&gt;struttura logica e fisica
+struttura fisica -&amp;gt; come informazioni sono scritte su memoria fisicamente
+struttura logica -&amp;gt; e il modo in cui informazioni sono organizzate e mostrate ad utente&lt;/p&gt;
+&lt;p&gt;gerarchico
+FAT (file table)
+non contiguo (contiguo = blocchi o cluster blocchi sono consequenziali senza interruzioni sul disco)
+introduce concetto di puntataore raccolta in tabella
+primo metatadi , ultimo se corrotto&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_sistemi-operativi/introduzione/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_sistemi-operativi/introduzione/</guid><description>&lt;p&gt;se un processo entra nello spazio ram vede i dati del altro processo
+7 MACROGRUPPI&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GESTIONE DEI PROCESSI (CREAZIONE , SCHEDULAZIONE , TERMINAZIONE) . supporto multitasking e concorrenza , sicnronizzazione , assegnazione della cpu ai processi scheduler&lt;/li&gt;
+&lt;li&gt;MEMOMRY MANAGMENT (MMU) , tabella di paging , memoria virtuale&lt;/li&gt;
+&lt;li&gt;DEVICE MANAGEMENT (controllo dispositivi Input/Output , cache , intteruzioni , spooling&lt;/li&gt;
+&lt;li&gt;FILE SYSTEM MANAGEMENT&lt;/li&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;RESOURCE ALLOCATION&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;SECURITY &amp;amp; PROTECTION&lt;/li&gt;
+&lt;li&gt;USER &amp;amp; PROTECTION&lt;/li&gt;
+&lt;li&gt;USER INTERFACE&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;su cosa Basati
+MONOLITICI vs MICROKERNEL
+kernel contiene tutto e condividono stesso spazio esecuzione&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_sistemi-operativi/kernel/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_sistemi-operativi/kernel/</guid><description>&lt;p&gt;si interpone per richieste fatte da utente con hardware
+risposta ritorna in modalita utente&lt;/p&gt;
+&lt;p&gt;CARATERRISTICHE
+gestione processi
+ram
+gestione file system
+verifica identita utenti , permessi&lt;/p&gt;
+&lt;p&gt;MODALITA KERNEL vs MODALITA UTENTE&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_sistemi-operativi/processi-e-thread/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_sistemi-operativi/processi-e-thread/</guid><description>&lt;h3 class="relative group"&gt;PROCESSSO VS THREAD
+ &lt;div id="processso-vs-thread" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#processso-vs-thread" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;PROCESSO&lt;/strong&gt;: programma in esecuzione con propria memoria o risorse o unita base della locazione delle risorse&lt;/p&gt;
+&lt;p&gt;risorse: codice , dati (variabil) , stato di esecuzione , program counter , risorse
+ha suo spazio isolato dedicato&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;THREAD&lt;/strong&gt; (filo esecuzione) piccola unita schedulabile del processo (thread parte del processo)
+viene condivisa codice , dati (variabili) , stato di esecuzione , PC , risorse LI&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_virtualizzazione/introduzione/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_virtualizzazione/introduzione/</guid><description>&lt;p&gt;Astrazione sistema operativo , risorsa fisica , applicazione fatta su desktop , hardware che non va a interferire con ecosistema sottostante&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;host&lt;/strong&gt; = fisico
+&lt;strong&gt;virtual Machine manager&lt;/strong&gt; o &lt;strong&gt;Hypervisor&lt;/strong&gt; : crea e esegue macchine
+&lt;strong&gt;guest&lt;/strong&gt; : processo copia virtuale del SO (SO con reletive applicazioni esegue dentro ambiente host)&lt;/p&gt;
+&lt;p&gt;TIPI DI VIRTUALIZZAZIONE
+&lt;strong&gt;HARDWARE&lt;/strong&gt;
+virtualizzazione completa
+emulazione di una CPU su una CPU di tipo diverso (piu lenta)
+&lt;strong&gt;APPLICATIVO&lt;/strong&gt;
+sistemi runtime&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_virtualizzazione/paravirtualizzazione/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_virtualizzazione/paravirtualizzazione/</guid><description>&lt;p&gt;piu SO condividono lo stesso hardware
+Guest consapevoli di essere virtualizzati , posso comunicare direttamente hypervisior di tipo 1 e altri sistemi GUEST (linea diretta con hardware)&lt;/p&gt;
+&lt;p&gt;i kernel dei SO hanno supporto per paravirtualizzazione (cosi se messi )&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_virtualizzazione/virtualizzazione-a-livello-di-so/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_virtualizzazione/virtualizzazione-a-livello-di-so/</guid><description>&lt;p&gt;chiamato partizionamento o container di applicazione
+virtualizzazione a livello Kernel , SO caricato solo a fase uscita&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;Docker
+ &lt;div id="docker" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#docker" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;docker host : SO su cui gira docker
+docker machine : installare engine su host
+docker engine : permette esecuzione del docker client sul docker host&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;Kubernets
+ &lt;div id="kubernets" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#kubernets" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;per gestire container su cluster di macchine , semplifica distribuzione container
+mette a disposizione bilanciamento di carico , errori&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/prerequisiti/esadecimale/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/prerequisiti/esadecimale/</guid><description>&lt;p&gt;0x per indicare che numero è esadecimale&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;Da BINARIO a ESADECIMALE
+ &lt;div id="da--binario-a-esadecimale" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#da--binario-a-esadecimale" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;hai 8 bit&lt;/p&gt;
+
+&lt;h5 class="relative group"&gt;1 scomponi 8 bit in 2 gruppi da 4
+ &lt;div id="1-scomponi-8-bit-in-2-gruppi-da-4" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#1-scomponi-8-bit-in-2-gruppi-da-4" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h5&gt;
+&lt;p&gt;esempio 10111111 diventa 1011 e 1111&lt;/p&gt;
+
+&lt;h5 class="relative group"&gt;2 ogni gruppo trasformalo in decimale
+ &lt;div id="2-ogni-gruppo-trasformalo-in-decimale" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#2-ogni-gruppo-trasformalo-in-decimale" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h5&gt;
+&lt;p&gt;1011 = 11 1111=15&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/protocoli/ftp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/protocoli/ftp/</guid><description>&lt;p&gt;ottimizzato per trasferire file
+ascolta su porta 21 di default&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Comando&lt;/th&gt;
+ &lt;th&gt;per cosa usato&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;USER&lt;/td&gt;
+ &lt;td&gt;input username&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;PASS&lt;/td&gt;
+ &lt;td&gt;input password&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;RETR&lt;/td&gt;
+ &lt;td&gt;download a file from ftp&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;STOR&lt;/td&gt;
+ &lt;td&gt;upload a file from client to ftp&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Alcune volte possibile login con solo username &lt;code&gt;anonymous&lt;/code&gt;
+Comandi
+&lt;code&gt;type ascii&lt;/code&gt; se è un testo
+&lt;code&gt;get nome_fie&lt;/code&gt; per scaricare file&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/protocoli/mail/0-come-funziona/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/protocoli/mail/0-come-funziona/</guid><description>&lt;p&gt;scrivi email a &lt;a href="mailto:mail@dominio.ricevitore" &gt;mail@dominio.ricevitore&lt;/a&gt;
+il tuo client lo invia a SMTP della tua email , SMTP della tua email fa DNS request e vede ip del server SMPT a cui inviare e lo invia a SMPT che gestisce dominio.ricevitore -&amp;gt; server SMTP ricevitore fa check e se supera check lo invia a IMAP/POP3 server che lo invia al client del ricevitore&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/protocoli/mail/imap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/protocoli/mail/imap/</guid><description>&lt;p&gt;Internet Message Access Protocol
+permette sincronizzazione messaggi su piu client diversi&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/protocoli/mail/pop3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/protocoli/mail/pop3/</guid><description>&lt;p&gt;Post Office Protocol 3
+recupera email tramite POP3&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;COMNANDO&lt;/th&gt;
+ &lt;th&gt;COSA FA&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;AUT&lt;/td&gt;
+ &lt;td&gt;inizia il tutto&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;USER nome&lt;/td&gt;
+ &lt;td&gt;inserire utente&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;PASS password&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;LIST&lt;/td&gt;
+ &lt;td&gt;lista email presenti&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;RETR numero&lt;/td&gt;
+ &lt;td&gt;recupera quella mail&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/protocoli/mail/simple-mail-transfert-protocol/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/protocoli/mail/simple-mail-transfert-protocol/</guid><description>&lt;p&gt;definisce come un client parla con server mail e come un server mail parla con altro server mail&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;COMANDO&lt;/th&gt;
+ &lt;th&gt;COSA FA&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;HELO / EHLO {nome_dominio}&lt;/td&gt;
+ &lt;td&gt;inizia una sessione SMTP&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;MAIL FROM:&lt;/td&gt;
+ &lt;td&gt;specifica chi invia email&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;RCPT TO:&lt;/td&gt;
+ &lt;td&gt;specifica a chi deve arrivare&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;DATA&lt;/td&gt;
+ &lt;td&gt;indica messaggio&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;.&lt;/td&gt;
+ &lt;td&gt;indica fine messaggio&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/windows/ad/1-active-directory/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/windows/ad/1-active-directory/</guid><description>&lt;p&gt;&lt;strong&gt;DEFINIZIONE AD&lt;/strong&gt;
+sistema di gestione centralizzato basato su concetto dominio : insieme host sulla rete che condividono risorse e accessi&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Windows Domain&lt;/strong&gt;
+insieme di utenti e computers appartengono alla stessa organizzazione&lt;/p&gt;
+&lt;p&gt;i Domain servono per centralizzare amministrazione di computers Windows di identità e security policy&lt;/p&gt;
+&lt;p&gt;il cuore di Windows Domain è &lt;strong&gt;Active Directory Domain Service&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;il server che runna l Active Directory è il &lt;strong&gt;Domain Controller&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Acive directory supporta tanti oggetti : utenti , gruppi , macchine , stampanti , shares&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/windows/ad/2-active-directory-autenticazione/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/windows/ad/2-active-directory-autenticazione/</guid><description>&lt;p&gt;tutte credenziali &lt;strong&gt;salvate nel DC&lt;/strong&gt;
+quando un utente prova a autenticarsi ad un servizio , il servizio chiederà a Domanin controller se credenziali corrette&lt;/p&gt;
+&lt;p&gt;Protocolli usati :
+&lt;strong&gt;NETLM&lt;/strong&gt; (legacy)
+&lt;strong&gt;Kerbero&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;
+ &lt;div id="" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;KERBEROS
+funziona per ticket&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;PREREQUISITO
+ &lt;div id="prerequisito" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#prerequisito" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;client invia ticket a servizio KDC del DC per avere Ticket che permette genarare altro ticket
+inviando nome utente e timestamp criptato con chiave creata da passowrd utente&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/windows/ad/3-alberi-foreste-e-trust/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/windows/ad/3-alberi-foreste-e-trust/</guid><description>&lt;h2 class="relative group"&gt;Tree
+ &lt;div id="tree" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#tree" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;Domini separati che pero condividono stesso namespace (&lt;code&gt;.local&lt;/code&gt;)
+&lt;code&gt;prova.local&lt;/code&gt; e&lt;code&gt; us.prova.local&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;Forest
+ &lt;div id="forest" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#forest" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;Domini separati che hanno namespace diversi in questo caso &lt;code&gt;prova.ciao&lt;/code&gt; e &lt;code&gt;prova.ehi&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;Trust Relationship
+ &lt;div id="trust-relationship" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#trust-relationship" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;esempio one way t. r.&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/windows/ad/4-come-configurare-lab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/windows/ad/4-come-configurare-lab/</guid><description>&lt;p&gt;VIRTUABOX
+usare rete con NAT
+ricordati che gateway primo ma VIRTUALBOX riserve ip quindi per IP DC e Client devi usare IP sopra il 20&lt;/p&gt;
+&lt;p&gt;VM WARE
+ricordati che per installare Server devi installare Sistema operativo dopo , crea macchina aggiungi disco e falla partire&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/windows/ad/5-ldaps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/windows/ad/5-ldaps/</guid><description>&lt;p&gt;Lightweight Director Access Protocol
+non solo di Windows
+tante letture e poche scritture
+pagine gialle
+usano porta 389 e 636&lt;/p&gt;
+&lt;p&gt;hacker fanno query LDAP per interrogare AD&lt;/p&gt;
+&lt;p&gt;esegui ldp.exe
+binding
+visualizza albero
+tasto destro cerca -&amp;gt; query
+vedi con AI query per cercare tutti utenti , tutti gruppi&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/windows/ad/ldap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/windows/ad/ldap/</guid><description>&lt;p&gt;è protocollo che permettere di comunicare a directory tipo AD con altre applicazioni/directory
+LDAP permette ad altri di comunicare con AD attraverso query&lt;/p&gt;
+&lt;p&gt;DC in AD ascolta per richieste LDAP&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/windows/cmd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/windows/cmd/</guid><description>&lt;p&gt;anche qui si puo usare | mrore&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;help
+ &lt;div id="help" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#help" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;help + nome comando per manuale&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;set
+ &lt;div id="set" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#set" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;vedere variabili d&amp;rsquo;ambiete&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;systeminfo
+ &lt;div id="systeminfo" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#systeminfo" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+
+&lt;h3 class="relative group"&gt;type e more
+ &lt;div id="type--e-more" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#type--e-more" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;alternativa a cat&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/windows/condivisione-files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/windows/condivisione-files/</guid><description>&lt;h3 class="relative group"&gt;SHARES
+ &lt;div id="shares" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#shares" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;guida configurazione &lt;a href="https://github.com/justinthepatchnotes/Network-File-Shares-and-Permissions-with-Active-Directory" target="_blank" rel="noreferrer"&gt;qui.&lt;/a&gt;
+condivisione cartelle su un server
+non hai accesso offline ma solo su server&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;WORK FOLDER
+ &lt;div id="work-folder" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#work-folder" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;hai accesso locale , puoi modificare il file e dopo fare sincronizzazione (come onedrive)&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;SMB
+ &lt;div id="smb" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#smb" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;SERVER MESSAGE BLOCK
+protocollo per condivisione dati usato nelle share&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/windows/file-system-windows/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/windows/file-system-windows/</guid><description>&lt;p&gt;usa NTFS : New File System Tecnology&lt;/p&gt;
+&lt;p&gt;permette di specificare permission su file e cartelle
+Crittografia EFS&lt;/p&gt;
+&lt;p&gt;PERMESSI&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Permesso&lt;/th&gt;
+ &lt;th&gt;Significato per cartelle&lt;/th&gt;
+ &lt;th&gt;Significato per file&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Read&lt;/td&gt;
+ &lt;td&gt;vedere e listare file&lt;/td&gt;
+ &lt;td&gt;permette di vedere i file&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Write&lt;/td&gt;
+ &lt;td&gt;aggiungere file e sottocartelle&lt;/td&gt;
+ &lt;td&gt;scrivere il file&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Red e Execute&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Modify&lt;/td&gt;
+ &lt;td&gt;aggiungere leggere e rimuovere&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Full controll&lt;/td&gt;
+ &lt;td&gt;tutto&lt;/td&gt;
+ &lt;td&gt;tutto&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 class="relative group"&gt;ADS
+ &lt;div id="ads" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#ads" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;ALTERNATE DATA STREAM
+ogni file ha stream $DATA e ADS permette di contenere piu di uno stream di data
+malware usano ADS per nascondere data&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/windows/laboratorio-ad-1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/windows/laboratorio-ad-1/</guid><description>&lt;h4 class="relative group"&gt;Prerequisiti
+ &lt;div id="prerequisiti" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#prerequisiti" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows server iso&lt;/li&gt;
+&lt;li&gt;Virtual Box&lt;/li&gt;
+&lt;li&gt;Windows normale iso&lt;/li&gt;
+&lt;li&gt;creare rete con nat da tools su virtual box ( rete con nat diversa da nat)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 class="relative group"&gt;Configurazione
+ &lt;div id="configurazione" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#configurazione" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+
+&lt;h4 class="relative group"&gt;rete server / domain contoller
+ &lt;div id="rete-server---domain-contoller" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#rete-server---domain-contoller" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h4&gt;
+&lt;p&gt;ip ricordando che primo ip subnet è il gateway mentre .2 e .3 ecc. vengono usati da virtualbox
+subnet dato da rete con nat
+gateway primo ip subnet
+DNS : qualisiasi server DNS&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/windows/laboratorio-ad-2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/windows/laboratorio-ad-2/</guid><description>&lt;h3 class="relative group"&gt;REPLICAZIONE DC
+ &lt;div id="replicazione-dc" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#replicazione-dc" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;serve per non avere single point of failiure e migliorare performance
+nuovo server , metti come DNS resolver IP del altro DC
+tra le opzioni (aggiungi nuova foresta ecc.) metti la prima
+attento se non riesci ad accedere o crea un nuovo utente e rendilo membro di &amp;lsquo;Domain Admins&amp;rsquo;
+o usa account Administrator&lt;/p&gt;
+
+&lt;h4 class="relative group"&gt;stato copia
+ &lt;div id="stato-copia" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#stato-copia" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h4&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;repadmin /showreply &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;repadmin /replsummary&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;se proprebli replica forza replica da Siti&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/windows/laboratorio-ad-3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/windows/laboratorio-ad-3/</guid><description>&lt;h4 class="relative group"&gt;firewall
+ &lt;div id="firewall" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#firewall" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h4&gt;
+&lt;p&gt;&lt;a href="https://woshub.com/windows-firewall-settings-group-policy/" target="_blank" rel="noreferrer"&gt;Configuring Windows Firewall Rules Using Group Policy | Windows OS Hub&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 class="relative group"&gt;Auditing
+ &lt;div id="auditing" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#auditing" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h4&gt;
+&lt;p&gt;&lt;a href="https://activedirectorypro.com/advanced-audit-policy-configuration/" target="_blank" rel="noreferrer"&gt;Advanced Audit Policy Configuration - Active Directory Pro&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;LDAP
+ &lt;div id="ldap" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#ldap" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;attivare da GPO&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/windows/powershell/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/windows/powershell/</guid><description>&lt;p&gt;crossplatform , riprende programmazione orientata agli oggetti&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;cmlets
+ &lt;div id="cmlets" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#cmlets" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;(command-lets) avanzati rispetto comandi windows
+consistono di Verbo-Oggetto
+esempio Get-Content&lt;/p&gt;
+&lt;p&gt;piu importanti&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;Get-Command
+ &lt;div id="get-command" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#get-command" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;per vedere cmlet che possiamo usare&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;Get-Help
+ &lt;div id="get-help" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#get-help" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;Get-Help cmdlet&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;Trova e scaricare altri cmdlets
+ &lt;div id="trova-e-scaricare-altri-cmdlets" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#trova-e-scaricare-altri-cmdlets" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;Find-Module -Name &amp;quot;modulo&amp;quot;&lt;/code&gt;
+&lt;code&gt;Install-Module -Name &amp;quot;modulo&amp;quot;&lt;/code&gt;&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/windows/processi-piu-importanti/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/windows/processi-piu-importanti/</guid><description>&lt;p&gt;LSASS + importante perchè attaccanti possono dumpare il processo e ottenere hash&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Processo&lt;/th&gt;
+ &lt;th&gt;Cosa fa&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;System idle process&lt;/td&gt;
+ &lt;td&gt;mostra CPU time non usate&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;System&lt;/td&gt;
+ &lt;td&gt;gestisce low-level kernel operazioni e driver&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;lsass.exe (Local Security Autorithy process)&lt;/td&gt;
+ &lt;td&gt;dove salvati loginis e password polcies , hash&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;smss.exe&lt;/td&gt;
+ &lt;td&gt;gestione sessioni (primo processo user-mode)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;csrss.exe&lt;/td&gt;
+ &lt;td&gt;client/server runtime subsystem (console e Gui support)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;wininit.exe&lt;/td&gt;
+ &lt;td&gt;starta i servizi di sistemi dopo smss&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;services.exe&lt;/td&gt;
+ &lt;td&gt;gestisce servizi di windows&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;exploorer.exe&lt;/td&gt;
+ &lt;td&gt;desktop, taskbar , file browsing&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/windows/rdp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/windows/rdp/</guid><description>&lt;p&gt;REMOTE DESKTOP PROTOCOL
+usa 3389
+bisogna avere windows pro o enterprise
+ssh ma grafico&lt;/p&gt;
+&lt;p&gt;per collersi a DC tramite RDP devi usare postazione controllata PAW&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/windows/scorciatoie/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/windows/scorciatoie/</guid><description>&lt;p&gt;per aprire pannello controllo &lt;code&gt;.cpl&lt;/code&gt; delle connessioni di rete&lt;/p&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ncpa.cpl&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;per aprire utenti e gruppi&lt;/p&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;dsa.msc&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;per aprire gpo&lt;/p&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;gpmc.msc&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;per aprire centro amministrazione AD (dove attivare cestione)&lt;/p&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;dsac.exe&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/windows/uac-e-tmp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/windows/uac-e-tmp/</guid><description>&lt;p&gt;User Account Control
+ogni applicazione che richiede il token accesso del amministratore deve fare prompt a utente finale (tranne per processo padre e figlio)&lt;/p&gt;
+&lt;p&gt;TMP
+trusted platform module
+crypto processore che fa operazioni crittograiche per rendere sistema tamper resistan al software malevolo&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/windows/windows-registry/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/windows/windows-registry/</guid><description>&lt;p&gt;Gerarachico database centrale che contiene informazioni necessarie per configurare sistema per gli utenti , applicazioni e hardware&lt;/p&gt;
+&lt;p&gt;contiene
+profili per ogni utente
+applicazioni installate nel computer e tipi di documento
+porte usate&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Classe&lt;/th&gt;
+ &lt;th&gt;&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;HKEY_CURRENT_USER&lt;/td&gt;
+ &lt;td&gt;solo per utente valgono (utente ha NTUSER.DAT)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;HEY_LOCAL_MACHINE&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;</description></item><item><title>AD</title><link>http://vale.cybersec.ovh/posts/aaaa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/aaaa/</guid><description>&lt;p&gt;&lt;strong&gt;DEFINIZIONE AD&lt;/strong&gt;
+sistema di gestione centralizzato basato su concetto dominio : insieme host sulla rete che condividono risorse e accessi&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Windows Domain&lt;/strong&gt;
+insieme di utenti e computers appartengono alla stessa organizzazione&lt;/p&gt;
+&lt;p&gt;i Domain servono per centralizzare amministrazione di computers Windows di identità e security policy&lt;/p&gt;
+&lt;p&gt;il cuore di Windows Domain è &lt;strong&gt;Active Directory Domain Service&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;il server che runna l Active Directory è il &lt;strong&gt;Domain Controller&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Acive directory supporta tanti oggetti : utenti , gruppi , macchine , stampanti , shares&lt;/p&gt;</description></item><item><title>Il mio post largo</title><link>http://vale.cybersec.ovh/posts/done/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/done/</guid><description>&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;caster@kali:/mnt/hgfs/ID$ ./kerbrute userenum --dc core.myownsummer.org -d myownsummer.org possibleusernames.txt 
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; __ __ __ 
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; / /_____ _____/ /_ _______ __/ /____ 
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; / //_/ _ \/ ___/ __ \/ ___/ / / / __/ _ \
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; / ,&amp;lt; / __/ / / /_/ / / / /_/ / /_/ __/
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;/_/|_|\___/_/ /_.___/_/ \__,_/\__/\___/ 
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Version: dev (9cfb81e) - 10/19/25 - Ronnie Flathers @ropnop
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;2025/10/19 16:43:23 &amp;gt; Using KDC(s):
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;2025/10/19 16:43:23 &amp;gt; 	core.myownsummer.org:88
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;2025/10/19 16:43:24 &amp;gt; [+] VALID USERNAME:	 sspeed@myownsummer.org
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;2025/10/19 16:43:24 &amp;gt; [+] VALID USERNAME:	 kestre@myownsummer.org
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;2025/10/19 16:43:24 &amp;gt; [+] VALID USERNAME:	 svettel@myownsummer.org
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;2025/10/19 16:43:24 &amp;gt; [+] VALID USERNAME:	 rkubica@myownsummer.org
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;2025/10/19 16:43:25 &amp;gt; Done! Tested 102 usernames (4 valid) in 1.128 seconds&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 class="relative group"&gt;Demone
+ &lt;div id="demone" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#demone" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;deamon è un processo che gira in background e di solito è fuori dal controllo del utente&lt;/p&gt;</description></item><item><title>subenetting</title><link>http://vale.cybersec.ovh/posts/ciao/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/ciao/</guid><description>&lt;h2 class="relative group"&gt;Regola Fondamentale del Subnetting
+ &lt;div id="regola-fondamentale-del-subnetting" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#regola-fondamentale-del-subnetting" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;blockquote&gt;&lt;p&gt;Nella Subnet Mask: tutti gli &lt;code&gt;1&lt;/code&gt; (a sinistra) definiscono la rete, tutti gli &lt;code&gt;0&lt;/code&gt; (a destra) definiscono gli host.&lt;/p&gt;
+&lt;/blockquote&gt;&lt;hr&gt;
+
+&lt;h2 class="relative group"&gt;Conversione CIDR -&amp;gt; Subnet Mask
+ &lt;div id="conversione-cidr---subnet-mask" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#conversione-cidr---subnet-mask" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Obiettivo:&lt;/strong&gt; Convertire una notazione CIDR nella corrispondente Subnet Mask.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Metodo:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt; &lt;strong&gt;Trova il multiplo di 8 più piccolo del CIDR:&lt;/strong&gt; Identifica il multiplo di 8 più vicino &lt;em&gt;e inferiore&lt;/em&gt; al valore del CIDR.&lt;/p&gt;</description></item></channel></rss>

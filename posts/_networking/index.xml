@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blowfish</title><link>http://vale.cybersec.ovh/posts/_networking/</link><description>Recent content on Blowfish</description><generator>Hugo -- gohugo.io</generator><language>it</language><copyright>© 2026</copyright><atom:link href="http://vale.cybersec.ovh/posts/_networking/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>http://vale.cybersec.ovh/posts/_networking/0-guida-per-pnetlab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/0-guida-per-pnetlab/</guid><description>&lt;h2 class="relative group"&gt;1 FAI FUNZIONARE VIRTUALIZZAZIONE AMD VT
+ &lt;div id="1-fai-funzionare-virtualizzazione-amd-vt" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#1-fai-funzionare-virtualizzazione-amd-vt" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;disattiva da funzionalita windows&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;hypervisor&lt;/li&gt;
+&lt;li&gt;sottosistema linux&lt;/li&gt;
+&lt;li&gt;windows machine platform&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;da powershell questo codice
+&lt;code&gt;Set-ItemProperty -Path &amp;quot;HKLM:\SYSTEM\CurrentControlSet\Control\DeviceGuard&amp;quot; -Name &amp;quot;EnableVirtualizationBasedSecurity&amp;quot; -Value 0&lt;/code&gt;
+disattiva da attiva e disattiva funzionalità di windows hyper V , wsl e piattaforma macchien virtuali
+continua usando questo &lt;a href="https://www.microsoft.com/en-us/download/details.aspx?id=53337" target="_blank" rel="noreferrer"&gt;tool&lt;/a&gt;&lt;br&gt;
+se ancora non va usa questa &lt;a href="https://gns3.com/community/featured/fixing-vt-x-or-amd-v-not-available-in-windows-11-with-vmware-ws-pro-and-player" target="_blank" rel="noreferrer"&gt;guida&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;INSTALLA VM WARE
+ &lt;div id="installa-vm-ware" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#installa-vm-ware" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;installa , importa .ova e attiva nelle impostazioni macchina sezione processore AMD V&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/0-topologia-rete/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/0-topologia-rete/</guid><description>&lt;p&gt;![[Pasted image 20251218172131.png]]&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;Bus
+ &lt;div id="bus" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#bus" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;tutti nodi a singolo cavo&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;vantaggi&lt;/th&gt;
+ &lt;th&gt;svantaggi&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;facile da implemtare&lt;/td&gt;
+ &lt;td&gt;1 sigle point of faliure&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;collisioni dati&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;rallentamenti&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 class="relative group"&gt;ANELLO
+ &lt;div id="anello" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#anello" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;modo circolare , ogni nodo ha esattamente 2 vicini&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;vantaggi&lt;/th&gt;
+ &lt;th&gt;svantaggi&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;economiche e facili da implementare&lt;/td&gt;
+ &lt;td&gt;1 single point of faliure&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 class="relative group"&gt;STELLA
+ &lt;div id="stella" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#stella" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;nodi collegati a hub centrale&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/1--pila-iso-osi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/1--pila-iso-osi/</guid><description>&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;LIVELLO&lt;/th&gt;
+ &lt;th&gt;NOME&lt;/th&gt;
+ &lt;th&gt;PBU&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;7&lt;/td&gt;
+ &lt;td&gt;Applicazione&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;6&lt;/td&gt;
+ &lt;td&gt;Presentation&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;5&lt;/td&gt;
+ &lt;td&gt;Session&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;4&lt;/td&gt;
+ &lt;td&gt;Transport&lt;/td&gt;
+ &lt;td&gt;segment/datagram&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;3&lt;/td&gt;
+ &lt;td&gt;Network&lt;/td&gt;
+ &lt;td&gt;packet&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;Data Link&lt;/td&gt;
+ &lt;td&gt;frame&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;Phisical&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h5 class="relative group"&gt;cosa succede a data dal alto verso il basso
+ &lt;div id="cosa-succede-a-data-dal-alto-verso-il-basso" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#cosa-succede-a-data-dal-alto-verso-il-basso" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h5&gt;
+&lt;p&gt;aggiunti data : ENCAPSULATION&lt;/p&gt;
+
+&lt;h5 class="relative group"&gt;cosa succede a data dal basso verso alto
+ &lt;div id="cosa-succede-a-data-dal-basso-verso-alto" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#cosa-succede-a-data-dal-basso-verso-alto" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h5&gt;
+&lt;p&gt;data strip off DE-ENCAPSULATION&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/2-pila-tcp-ip/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/2-pila-tcp-ip/</guid><description>&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Numero&lt;/th&gt;
+ &lt;th&gt;Layer&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;4&lt;/td&gt;
+ &lt;td&gt;Applicazione&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;3&lt;/td&gt;
+ &lt;td&gt;Transport&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;Network&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;Link&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h5 class="relative group"&gt;come viene creata connessione tra 2 host ( )
+ &lt;div id="come-viene-creata-connessione-tra-2-host--" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#come-viene-creata-connessione-tra-2-host--" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h5&gt;
+&lt;p&gt;TCP&lt;/p&gt;
+
+&lt;h5 class="relative group"&gt;metodo con il quale viene creata connessione tra 2 host
+ &lt;div id="metodo-con-il-quale-viene-creata-connessione-tra-2-host" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#metodo-con-il-quale-viene-creata-connessione-tra-2-host" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h5&gt;
+&lt;p&gt;3 way hand shake
+SYNC , SYNC + ACK , ACK&lt;/p&gt;
+
+&lt;h5 class="relative group"&gt;come puo essere bloccata da host creata connessione
+ &lt;div id="come-puo-essere-bloccata-da-host-creata-connessione" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#come-puo-essere-bloccata-da-host-creata-connessione" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h5&gt;
+&lt;p&gt;RST ( RESET)&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/5-etherchannel/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/5-etherchannel/</guid><description>&lt;h6 class="relative group"&gt;Come creare
+ &lt;div id="come-creare" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#come-creare" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h6&gt;
+&lt;p&gt;Seleziona le interfacce su cui attivare etherchannel attraverso il range
+Comando : channel-group 1 mode on&lt;/p&gt;
+
+&lt;h5 class="relative group"&gt;come configurare robe su etherchannel
+ &lt;div id="come-configurare-robe-su-etherchannel" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#come-configurare-robe-su-etherchannel" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h5&gt;
+&lt;p&gt;esci da interfacce e usa comando
+interface port-channel 1&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/6-vlan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/6-vlan/</guid><description>&lt;h5 class="relative group"&gt;cosa è VLAN
+ &lt;div id="cosa-è-vlan" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#cosa-%c3%a8-vlan" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h5&gt;
+&lt;p&gt;ci permette di isolare domini di broadcast ( quando inviamo messaggi con dest FF:FF:FF:FF con vlan limitiamo destinatari)&lt;/p&gt;
+
+&lt;h6 class="relative group"&gt;a cosa serve VLAN
+ &lt;div id="a-cosa-serve-vlan" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#a-cosa-serve-vlan" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h6&gt;
+&lt;p&gt;sicurezza (impedisce scan nmap) e diminuire la banda usata ( meno ARP ) e scalabilità&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;ATTENTO
+ &lt;div id="attento" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#attento" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;trunk e access e concetto di porta , puoi combinare come vuoi quale native/untagged in trunk basta che dispotivo altra parte porta configurato nella stessa maniera&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/acl--accesso-control-list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/acl--accesso-control-list/</guid><description>&lt;h4 class="relative group"&gt;a cose serve ?
+ &lt;div id="a-cose-serve-" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#a-cose-serve-" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h4&gt;
+&lt;p&gt;sicurezza , regola quali dispositivi hanno accesso alla rete&lt;/p&gt;
+
+&lt;h5 class="relative group"&gt;cosa è ?
+ &lt;div id="cosa-è-" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#cosa-%c3%a8-" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h5&gt;
+&lt;p&gt;un filtro , che dice a router di permettere o scartare pacchetto&lt;/p&gt;
+
+&lt;h4 class="relative group"&gt;cosa è importante acl
+ &lt;div id="cosa-è-importante-acl" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#cosa-%c3%a8-importante-acl" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h4&gt;
+&lt;p&gt;implicit deny su ogni singola ACL e vengono lette (da numero piu basso a piu alto) finche occorrenza non corrisponde&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/arp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/arp/</guid><description>&lt;h4 class="relative group"&gt;a cosa serve?
+ &lt;div id="a-cosa-serve" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#a-cosa-serve" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h4&gt;
+&lt;p&gt;associare indirizzo IP ( layer 3 ) a MAC address ( layer 2)&lt;/p&gt;
+
+&lt;h4 class="relative group"&gt;perchè serve ?
+ &lt;div id="perchè-serve-" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#perch%c3%a8-serve-" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h4&gt;
+&lt;p&gt;perchè quando craftiamo il pacchetto ( seguendo pila TCP / IP ) dobbiamo inserire anche info per layer 2 che richiede MAC address di source e dest&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/cli/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/cli/</guid><description>&lt;h6 class="relative group"&gt;per cosa sta CLI ?
+ &lt;div id="per-cosa-sta-cli-" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#per-cosa-sta-cli-" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h6&gt;
+&lt;p&gt;Command Line Interface&lt;/p&gt;
+
+&lt;h6 class="relative group"&gt;con che tipo cavo mi connetto a router / switch Cisco
+ &lt;div id="con-che-tipo-cavo-mi-connetto-a-router--switch-cisco" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#con-che-tipo-cavo-mi-connetto-a-router--switch-cisco" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h6&gt;
+&lt;p&gt;Rollover cable&lt;/p&gt;
+
+&lt;h6 class="relative group"&gt;come mi connetto da pc a CLI del router/switch
+ &lt;div id="come-mi-connetto-da-pc-a--cli-del-routerswitch" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#come-mi-connetto-da-pc-a--cli-del-routerswitch" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h6&gt;
+&lt;p&gt;PuTTy&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/dhcp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/dhcp/</guid><description>&lt;p&gt;Dynamic Host Configuration Protocol&lt;/p&gt;
+&lt;p&gt;4 fasi DORA
+DHCP &lt;strong&gt;D&lt;/strong&gt;iscover (broadcast)
+DHCP &lt;strong&gt;O&lt;/strong&gt;ffer (unicast)
+DCHP &lt;strong&gt;R&lt;/strong&gt;equest (dice che accetta) (broadcast)
+ACK &lt;strong&gt;A&lt;/strong&gt; (unicast)&lt;/p&gt;
+
+&lt;h5 class="relative group"&gt;come è richiesta dhcp inviata da host ?
+ &lt;div id="come-è-richiesta-dhcp-inviata-da-host-" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#come-%c3%a8-richiesta-dhcp-inviata-da-host-" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h5&gt;
+&lt;p&gt;layer 3 con ip source 0.0.0.0 e ip di destinazione 255.255.255.255
+client invia a porta 68 udp , server risponde a porta 67&lt;/p&gt;
+&lt;p&gt;cosa è APIPA
+AUTOMATIC PRIVATE IP ADDRESSING
+meccanismo che permette a host di avere proprio ip privato quando non riesce ad avere uno da un dhcp
+&lt;code&gt;169.254.X.X&lt;/code&gt;&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/dispositivi-di-rete/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/dispositivi-di-rete/</guid><description>&lt;p&gt;&lt;strong&gt;Firewall&lt;/strong&gt; filtra rete attraverso regole
+&lt;strong&gt;IPS&lt;/strong&gt; monitora traffico reale per rilevare anomalie e previene gli attacchi
+&lt;strong&gt;IDS&lt;/strong&gt; monitora traffico reale e generale avvisi&lt;/p&gt;
+&lt;p&gt;Firewall e IPS in linea a cascata
+IDS in parallelo ascolta passivamente&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/dns/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/dns/</guid><description>&lt;h5 class="relative group"&gt;cosa fa DNS ?
+ &lt;div id="cosa-fa-dns-" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#cosa-fa-dns-" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h5&gt;
+&lt;p&gt;risolve nomi di dominio in indirizzi ip&lt;/p&gt;
+
+&lt;h4 class="relative group"&gt;cosa sono i nomi di dominio
+ &lt;div id="cosa-sono-i-nomi-di-dominio" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#cosa-sono-i-nomi-di-dominio" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h4&gt;
+&lt;p&gt;hostname + Top-level domain
+esempio: google(hostname).it ( top - level domain)&lt;/p&gt;
+
+&lt;h5 class="relative group"&gt;come funziona DNS
+ &lt;div id="come-funziona-dns" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#come-funziona-dns" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;il nostro pc interroga il recursive DNS resolver ( dato da ips o inserito da noi)&lt;/li&gt;
+&lt;li&gt;il recursive DNS server interroga il DNS root nameserver&lt;/li&gt;
+&lt;li&gt;il root server da a recursive DNS ip del DNS TLD nameserver per quel T.D.L&lt;/li&gt;
+&lt;li&gt;il recursive DNS resolver invia richiesta a DNS TLD nameserver che risponde con ip del DNS authoritative&lt;/li&gt;
+&lt;li&gt;il recursive DNS resolver invia richiesta a DNS authoritative server che risponde con IP nome di dominio&lt;/li&gt;
+&lt;li&gt;il recursive DNS resolver invia risposta a nostro pc&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 class="relative group"&gt;ZONA DNS
+ &lt;div id="zona-dns" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#zona-dns" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;porzione spazio dei nomi di dominio gestista da una organizzazione o amministratore
+ATTENTO : sottodominio puo far parte di stessa zona DNS o altra (Delegazione)&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/icmp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/icmp/</guid><description>&lt;p&gt;Internet Control Message Protocol (Layer 3)
+usato per network discovery e security&lt;/p&gt;
+&lt;p&gt;i piu usati comandi sono&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;PING
+ &lt;div id="ping" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#ping" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;ICMP type 8&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;TRACEROUTE
+ &lt;div id="traceroute" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#traceroute" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;permette di rilevare router che pacchetto percorre
+sfrutta TTL&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/interfacce-e-cavi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/interfacce-e-cavi/</guid><description>&lt;h6 class="relative group"&gt;Cosa è Ethernet?
+ &lt;div id="cosa-è-ethernet" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#cosa-%c3%a8-ethernet" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h6&gt;
+&lt;p&gt;una collezione di standard e protocolli&lt;/p&gt;
+
+&lt;h5 class="relative group"&gt;cosa è un Bit?
+ &lt;div id="cosa-è-un-bit" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#cosa-%c3%a8-un-bit" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h5&gt;
+&lt;p&gt;1 o 0&lt;/p&gt;
+
+&lt;h6 class="relative group"&gt;cosa è un Byte?
+ &lt;div id="cosa-è-un-byte" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#cosa-%c3%a8-un-byte" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h6&gt;
+&lt;p&gt;8 bit&lt;/p&gt;
+
+&lt;h5 class="relative group"&gt;come misurata velocità ? come archiviazione?
+ &lt;div id="come-misurata-velocità--come-archiviazione" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#come-misurata-velocit%c3%a0--come-archiviazione" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h5&gt;
+&lt;p&gt;velocità bit per secondo , archiviazione in byte&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/ip-v6/come-formato-ipv6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/ip-v6/come-formato-ipv6/</guid><description>&lt;h3 class="relative group"&gt;GLOBAL ROUTING PREFIX
+ &lt;div id="global-routing-prefix" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#global-routing-prefix" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;primo blocco da 48 bit (primi 3 gruppi)
+assegnato da ISP&lt;/p&gt;
+
+&lt;h4 class="relative group"&gt;come trovare prefisso
+ &lt;div id="come-trovare-prefisso" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#come-trovare-prefisso" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h4&gt;
+&lt;p&gt;caso multiplo di 4 facile
+se non multiplo di 4 devi passare a decimale e da decimale a binario&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;SUBNET IDENTIFIER
+ &lt;div id="subnet-identifier" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#subnet-identifier" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;secondo blocco da 16 bit
+usato da Enterprise per subent&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/ip-v6/configurazione-cisco/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/ip-v6/configurazione-cisco/</guid><description>&lt;p&gt;per attivare routing
+&lt;code&gt;ipv6 unicast-routing&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;vai in interfaccia
+&lt;code&gt;ipv6 address ip/subenet&lt;/code&gt;
+per generare automaticamente interface host da mac address interfaccia
+&lt;code&gt;ipv6 address 2001:db8::/64 eui-64&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;per visualizzare interfacce con ipv6
+&lt;code&gt;show ipv6 interface brief&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;per anycast
+&lt;code&gt;ip address ip/subnet anycast&lt;/code&gt;&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/ip-v6/eui-64/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/ip-v6/eui-64/</guid><description>&lt;h3 class="relative group"&gt;passare da MAC a 48 bit a interface identifier (64 bit)
+ &lt;div id="passare-da-mac-a-48-bit-a-interface-identifier-64-bit" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#passare-da-mac-a-48-bit-a-interface-identifier-64-bit" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+
+&lt;h3 class="relative group"&gt;1 DIVIDERE MAC in 2
+ &lt;div id="1-dividere-mac-in-2" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#1-dividere-mac-in-2" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;00:1A:2B:3C:4D:5E -&amp;gt; 001A2B 2C4D6E&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;2 INSERIRE IN MEZZO FFFE
+ &lt;div id="2-inserire-in-mezzo-fffe" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#2-inserire-in-mezzo-fffe" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;001A2BFFFE2C4D6E&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;3 inverti il 7 bit (devi passare a binario)
+ &lt;div id="3-inverti-il-7-bit-devi-passare-a-binario" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#3-inverti-il-7-bit-devi-passare-a-binario" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;0 = 0 in decimale -&amp;gt; 0000
+inverto il 7 bit -&amp;gt; 0010 -&amp;gt; 2 in decimale -&amp;gt; 2 in esadecimale
+021&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/ip-v6/ip-v6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/ip-v6/ip-v6/</guid><description>&lt;p&gt;128 bit
+vengono rappresentanti in esadecimali e non piu decimali come ipv4
+4bit (2^4 uguale 16) rappresentano un esadecimale
+ci sono 8 gruppi ognuno ha 4 caratteri in esadecimale separati da :&lt;/p&gt;
+&lt;p&gt;Localhost ::1
+tutte interfacce ::/0&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;SEMPLIFICAZIONI IPV6
+ &lt;div id="semplificazioni-ipv6" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#semplificazioni-ipv6" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;un ipv6 puo essere di questo tipo che è difficile da gestire
+&lt;code&gt;2001:0db8:0000:0000:0000:ff00:0042:8329&lt;/code&gt;
+allora si usano 2 tipi di semplificazione&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/ip-v6/neighbor-discovery-protocol/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/ip-v6/neighbor-discovery-protocol/</guid><description/></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/ip-v6/solicited-node-multicast-adress/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/ip-v6/solicited-node-multicast-adress/</guid><description>&lt;p&gt;calcolato da unicast
+si aggiunge a ff02::1:ff ultimi 6 esadecimali del unicast&lt;/p&gt;
+&lt;p&gt;esempio ff02::1:ffa3:b1&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/ip-v6/tipi-ipv6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/ip-v6/tipi-ipv6/</guid><description>&lt;h2 class="relative group"&gt;GLOBAL UNICAST
+ &lt;div id="global-unicast" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#global-unicast" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;indirizzi pubblici che posso essere usati su internet (quindi devono essere unici)
+prima solo blocco 2000:/3 ora tutti quelli non usati per altri motivi&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;UNIQUE LOCAL
+ &lt;div id="unique-local" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#unique-local" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;sono indirizzi privati
+FC00::/7 prima ma ora FD
+meglio generare randomicamente rimanenti 40 bit per possibili problemi quando aziende si uniscono ecc&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/load-balancing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/load-balancing/</guid><description>&lt;p&gt;smistamento richieste
+performano health check e se server non risponde invia ad altri server prossime richieste
+ci sono algoritmi (es. Round Robin) che assegnano priorita&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/nat/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/nat/</guid><description>&lt;h3 class="relative group"&gt;perchè ci serve
+ &lt;div id="perchè-ci-serve" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#perch%c3%a8-ci-serve" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;gli ipv4 stanno finendo&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;tipi NAT
+ &lt;div id="tipi-nat" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#tipi-nat" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+
+&lt;h2 class="relative group"&gt;NAT STATICO
+ &lt;div id="nat-statico" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#nat-statico" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;1 a 1&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;NAT DINAMICO
+ &lt;div id="nat-dinamico" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#nat-dinamico" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;molti a molti
+ma sempre 1 ip privato per 1 pubblico ma questa volta quello pubblico scelto tra pool&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/port-forwarding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/port-forwarding/</guid><description>&lt;p&gt;applicazione del NAT
+permette di reindirizzare il traffico da una porta di un indirizzo esterno a porta di indirizzare interno&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/routing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/routing/</guid><description>&lt;h5 class="relative group"&gt;indirizzo ip che di solito si da network LAN
+ &lt;div id="indirizzo-ip-che-di-solito-si-da-network-lan" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#indirizzo-ip-che-di-solito-si-da-network-lan" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h5&gt;
+&lt;p&gt;192.168.X.X&lt;/p&gt;
+
+&lt;h5 class="relative group"&gt;indirizzo ip che di solito si da a reti di router
+ &lt;div id="indirizzo-ip-che-di-solito-si-da-a-reti-di-router" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#indirizzo-ip-che-di-solito-si-da-a-reti-di-router" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h5&gt;
+&lt;p&gt;10.0.X.X&lt;/p&gt;
+
+&lt;h5 class="relative group"&gt;cosa è gateway
+ &lt;div id="cosa-è-gateway" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#cosa-%c3%a8-gateway" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h5&gt;
+&lt;p&gt;funge da punto di ingresso e uscita per traffico dati tra 2 reti ma ha ruolo attivo&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/osfp-adiacenze/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/osfp-adiacenze/</guid><description>&lt;p&gt;la cosa piu importante in configurazione e troubleshooting
+dopo adiacenti possono scambiarsi informazioni network&lt;/p&gt;
+&lt;p&gt;quando ospf abilitato in interfaccia invia OSPF hello a interventi regolari (10 secondi in Ethernet connection)
+Hello message su multicast 224.0.0.5
+inviati in IP header con valore 89&lt;/p&gt;
+&lt;p&gt;STATI NEIGHBORS&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;STATI&lt;/th&gt;
+ &lt;th&gt;SPIEGAZIONE&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;DOWN STATE&lt;/td&gt;
+ &lt;td&gt;R1 invia HELLO a 224.0.0.5 HELLO CONTINEE PROPRIO RID e RID VICINO 0.0.0.0 perchè non conosce&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;INIT STATE&lt;/td&gt;
+ &lt;td&gt;R2 pacchetto HELLO ricevuto ma il proprio RID non sta in HELLO ricevuto&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2-WAY STATE&lt;/td&gt;
+ &lt;td&gt;R2 invia pacchetto che continere proprio RID e quello appena ricevuto e inserisce nella propria tabella OSPF neihbor , e invia&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2-WAY STATE&lt;/td&gt;
+ &lt;td&gt;invia altro HELLO e entrambi ROUTER&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;DR/BDR ELECTION&lt;/td&gt;
+ &lt;td&gt;non avviene sempre&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;EXSTART&lt;/td&gt;
+ &lt;td&gt;scegliere quale izia scambio Master - SLAVE necessario solo per inizio scambio RID maggiore Master inviando DBD&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;EXCHANGE&lt;/td&gt;
+ &lt;td&gt;si inviano DBD che contengono LSA nel loro SDB (ma senza dettagliate informazioni)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;LOADING&lt;/td&gt;
+ &lt;td&gt;LSR link state request per avere LSA che non hanno , router risponde con LSU che contine LSA , LSAck&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;FULL STATE&lt;/td&gt;
+ &lt;td&gt;hanno identiche LSDB ma continuano ad inviare ogni pacchetto 10 secondi per mantenere&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 class="relative group"&gt;REQUISITI PER ROUTER VICINI
+ &lt;div id="requisiti-per-router-vicini" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#requisiti-per-router-vicini" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;1 stessa area
+2 interfacce stessa subnet
+3 OSPF non shutdown
+4 OSPF RID diversi
+5 router devono avere tra loro stesso hello e dead timer
+6 Stessa autenticazione
+7 stessa MTU
+8 OSPF network type uguale&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/ospf-assegnazione-rid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/ospf-assegnazione-rid/</guid><description>&lt;h5 class="relative group"&gt;ASSEGNAZIONE RID
+ &lt;div id="assegnazione-rid" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#assegnazione-rid" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h5&gt;
+&lt;p&gt;controlla se non assegnato in modo diretto con router id comando
+se non prova a usare piu alto ip loopback (per router loopback è interfaccia virtuale creato da amministratore)
+se fallisce usa ip piu alto di quelli non loopback (reale)&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;interfacce loopback
+ &lt;div id="interfacce-loopback" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#interfacce-loopback" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;virtuale , sempre up a meno che sistemista la spegne&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/ospf-metric/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/ospf-metric/</guid><description>&lt;p&gt;ospf metric = cost
+calcolato da bandwitdch (speed) del interfaccia
+&lt;code&gt;reference bandwidth / value interface bandwidth&lt;/code&gt;
+reference bandwitdh sempre =100 mbs
+ricorda se valore minore di 1 diventa 1
+interface 1000 = 1
+interface 10000 = 1
+puoi settare tu cost&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/ospf-network-type/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/ospf-network-type/</guid><description>&lt;p&gt;OSPF BROACAST NETOWKR TYPE
+abilitato su ethernet and FDDI interfacce in default
+Router dinamicamente scopre vicini sendendo HELLO OSPF packetsu multicast 224.0.0.5
+DR (designated router) e B(ackup)BR devono essere eletti per ogni subnet
+Router non DR o BDR è DROther&lt;/p&gt;
+&lt;p&gt;COME ELETTI DR/BDR
+1 OSPF interfaccia priorita (ma uguali per default 1)
+2 RID piu alta&lt;/p&gt;
+&lt;p&gt;router faranno piena addiacenze OSPF con BR e BDR del segmento nel network type BROADCAST
+DROther non inviano LSA tra loro
+F/C indica quanti FULL&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/ospf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/ospf/</guid><description>&lt;p&gt;Interior Protocol
+&lt;strong&gt;Link State protocol&lt;/strong&gt; Ogni router conosce tutta topologia: ogni router invia informazione su tutti i suoi link collegati ad ogni router nella rete tramite flooding e poi ogni router calcola proprie path&lt;/p&gt;
+&lt;p&gt;Funzionamento in breve:
+ogni router floodera LSA finche tutti router del router avranno stessa mappa della rere (LSDB)&lt;/p&gt;
+&lt;p&gt;OSPF funziona per Aree
+cosi ridotto tempo per calcolare rotte
+meno richieste hardware (memoria , processore)&lt;/p&gt;
+&lt;p&gt;area = set di router che condividono stessa LSDB
+AREA 0 BACKBONE speciale ogni altre aree devono essere connesse per forza a questa&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/tipi-lsa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/tipi-lsa/</guid><description>&lt;p&gt;ci sono 11 ma per CCNA 3&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;TYPE&lt;/th&gt;
+ &lt;th&gt;NOME&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;1&lt;/td&gt;
+ &lt;td&gt;ROUTER LSA&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;NETOWRK LSA&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;5&lt;/td&gt;
+ &lt;td&gt;AS EXTERNAL LSA&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 class="relative group"&gt;ROUTER LSA
+ &lt;div id="router-lsa" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#router-lsa" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;ogni router OSPF genera questo tipo
+router identificato da RID
+lista i network attaccatai al roter OSPF&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;NETOWRK LSA
+ &lt;div id="netowrk-lsa" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#netowrk-lsa" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;generato da DR di ogni multi access network (broadcast)
+lista router attaccati al multi-access network&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/routing/routing-statico/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/routing/routing-statico/</guid><description>&lt;h5 class="relative group"&gt;indirizzo ip che di solito si da a reti di router
+ &lt;div id="indirizzo-ip-che-di-solito-si-da-a-reti-di-router" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#indirizzo-ip-che-di-solito-si-da-a-reti-di-router" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h5&gt;
+&lt;p&gt;10.0.X.X&lt;/p&gt;
+
+&lt;h5 class="relative group"&gt;cosa è gateway
+ &lt;div id="cosa-è-gateway" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#cosa-%c3%a8-gateway" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h5&gt;
+&lt;p&gt;funge da punto di ingresso e uscita per traffico dati tra 2 reti ma ha ruolo attivo&lt;/p&gt;
+
+&lt;h5 class="relative group"&gt;come viene selezionato percorso da fare ? meglio valore grande o piccolo
+ &lt;div id="come-viene-selezionato-percorso-da-fare--meglio-valore-grande-o-piccolo" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#come-viene-selezionato-percorso-da-fare--meglio-valore-grande-o-piccolo" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h5&gt;
+&lt;p&gt;distanza amministrativa , piccolo&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/routing/tabella-routing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/routing/tabella-routing/</guid><description>&lt;p&gt;L -&amp;gt; locale -&amp;gt; ip che si trova su interfaccia con /32
+C -&amp;gt; connesso -&amp;gt; subnet che si puo accedere da quella interfaccia&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/spanning-tree-protocol/1-introduzione/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/spanning-tree-protocol/1-introduzione/</guid><description>&lt;p&gt;Se mettiamo tanti switch per ridondanza -&amp;gt; problema BROADCAST STORM e MAC ADDRESS FLAPPING&lt;/p&gt;
+
+&lt;h4 class="relative group"&gt;BROADCAST STORM
+ &lt;div id="broadcast-storm" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#broadcast-storm" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h4&gt;
+&lt;p&gt;esempio richiesta ARP -&amp;gt; switch flood a tutte le interfacce tranne quella inviata e tutti swith fanno lo stesso e cosi si crea broadcast storm perchè continua fino alla fine
+a layer 3 sta TTL a layer 2 non sta quindi fino alla fine&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/spanning-tree-protocol/2-classico-stp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/spanning-tree-protocol/2-classico-stp/</guid><description>&lt;h3 class="relative group"&gt;algoritmo 1
+ &lt;div id="algoritmo-1" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#algoritmo-1" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;eleggere il root bridge&lt;/li&gt;
+&lt;li&gt;selezionare le root ports per ogni switch diverso da root bridge&lt;/li&gt;
+&lt;li&gt;selezionare le porte disegnate&lt;/li&gt;
+&lt;li&gt;bloccare le porte non disegnate&lt;/li&gt;
+&lt;li&gt;monitorare per fallimenti che possono bloccare le porte disegnate per sbloccare quelle disegnate&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 class="relative group"&gt;1 elezione Root bridge
+ &lt;div id="1-elezione-root-bridge" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#1-elezione-root-bridge" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;quando switch viene avviato pensa di essere root switch
+switch invia HELLO BPDU a ogni interfaccia -&amp;gt; se switch riceve HELLO BPDU minore allora non è piu root e tutti switch alla fine eleggono uno root
+dopo designazione switch non non inviano PBDU ma forwardano&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/tls-e-https/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/tls-e-https/</guid><description>&lt;h2 class="relative group"&gt;TLS
+ &lt;div id="tls" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#tls" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;protocollo crittografico che opera al transport layer
+fornisce integrita e riservatezza (CI del CIA)&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;HTTPS
+ &lt;div id="https" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#https" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;è HTTP su TLS&lt;/p&gt;
+&lt;p&gt;3 FASI&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;3 way handshake del TCP (SYN,SYN+ACK,ACK)&lt;/li&gt;
+&lt;li&gt;creare sessione tls&lt;/li&gt;
+&lt;li&gt;comunicare tramite http&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/traceroute/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/traceroute/</guid><description>&lt;p&gt;traceroute = funziona con ping e ttl si invia ttl pari a 1 e il router deve rispondere con ICMP Time-to-Live a chi ha fatto richiesta&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/traffic-shaping/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/traffic-shaping/</guid><description>&lt;h6 class="relative group"&gt;a cosa serve
+ &lt;div id="a-cosa-serve" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#a-cosa-serve" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h6&gt;
+&lt;p&gt;gestire rete come se fossimo dei vigili&lt;/p&gt;
+
+&lt;h6 class="relative group"&gt;come viene configurare traffico rete
+ &lt;div id="come-viene-configurare-traffico-rete" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#come-viene-configurare-traffico-rete" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h6&gt;
+&lt;p&gt;con 2 shaper uno per upload , altro per download&lt;/p&gt;
+
+&lt;h6 class="relative group"&gt;nomi traffic shaper per download / upload
+ &lt;div id="nomi-traffic-shaper-per-download--upload" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#nomi-traffic-shaper-per-download--upload" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h6&gt;
+&lt;p&gt;upload : shared
+download : reverse&lt;/p&gt;</description></item><item><title/><link>http://vale.cybersec.ovh/posts/_networking/vpn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/vpn/</guid><description>&lt;p&gt;per VPN abbiamo bisogno di tunnel , subnet , interfaccia di rete virtuale sulla quale vengono inviati pacchetto con destinazione subnet della vpn (Allowed Ip)&lt;/p&gt;
+
+&lt;h5 class="relative group"&gt;come possiamo vedere vpn
+ &lt;div id="come-possiamo-vedere-vpn" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#come-possiamo-vedere-vpn" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h5&gt;
+&lt;p&gt;tunnel&lt;/p&gt;
+
+&lt;h6 class="relative group"&gt;topologie vpn
+ &lt;div id="topologie-vpn" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#topologie-vpn" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h6&gt;
+&lt;p&gt;mesh
+partial mesh
+hub and spoke
+si dividono per ridondanza / scalabilità / banda&lt;/p&gt;</description></item><item><title>ip4 intro</title><link>http://vale.cybersec.ovh/posts/_networking/ip-v4/ip-v4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/ip-v4/ip-v4/</guid><description>&lt;h3 class="relative group"&gt;prerequisiti
+ &lt;div id="prerequisiti" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#prerequisiti" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+
+&lt;h5 class="relative group"&gt;trasformazione numero da decimale e binario e viceversa
+ &lt;div id="trasformazione-numero-da-decimale-e-binario-e-viceversa" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#trasformazione-numero-da-decimale-e-binario-e-viceversa" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h5&gt;
+&lt;p&gt;AGGIUNGI IMMAGINI&lt;/p&gt;
+
+&lt;h6 class="relative group"&gt;cosa è idirizzo IP
+ &lt;div id="cosa-è-idirizzo-ip" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#cosa-%c3%a8-idirizzo-ip" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h6&gt;
+&lt;p&gt;sono 32 bit ( 4 ottetti ) che identificano unicamente un host in &lt;strong&gt;quella rete&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h6 class="relative group"&gt;come puo essere un indirizzo ip?
+ &lt;div id="come-puo-essere-un-indirizzo-ip" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#come-puo-essere-un-indirizzo-ip" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h6&gt;
+&lt;p&gt;privato o pubblico&lt;/p&gt;</description></item><item><title>Privati vs Pubblici</title><link>http://vale.cybersec.ovh/posts/_networking/ip-v4/privati-vs-pubblici/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/ip-v4/privati-vs-pubblici/</guid><description>&lt;p&gt;Gli indirzzi ipv4 si dividono in Privati e Pubblici&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;IP PUBBLICI
+ &lt;div id="ip-pubblici" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#ip-pubblici" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;CLASSE&lt;/th&gt;
+ &lt;th&gt;RANGE&lt;/th&gt;
+ &lt;th&gt;DIFFERENZA&lt;/th&gt;
+ &lt;th&gt;TIPO&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;A&lt;/td&gt;
+ &lt;td&gt;1-126&lt;/td&gt;
+ &lt;td&gt;+128&lt;/td&gt;
+ &lt;td&gt;grandi reti&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;B&lt;/td&gt;
+ &lt;td&gt;128-191&lt;/td&gt;
+ &lt;td&gt;+64&lt;/td&gt;
+ &lt;td&gt;reti medie&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;C&lt;/td&gt;
+ &lt;td&gt;192-223&lt;/td&gt;
+ &lt;td&gt;+32&lt;/td&gt;
+ &lt;td&gt;reti piccole&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;D&lt;/td&gt;
+ &lt;td&gt;224-239&lt;/td&gt;
+ &lt;td&gt;+16&lt;/td&gt;
+ &lt;td&gt;multicast&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;E&lt;/td&gt;
+ &lt;td&gt;240-255&lt;/td&gt;
+ &lt;td&gt;+16&lt;/td&gt;
+ &lt;td&gt;speriementali&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 class="relative group"&gt;IP PRIVATI
+ &lt;div id="ip-privati" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#ip-privati" aria-label="Ancora"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;Indirizzi privati per convenzione fanno parta di queste subnet&lt;/p&gt;</description></item><item><title>Subnetting CHEATSHEETS</title><link>http://vale.cybersec.ovh/posts/_networking/ip-v4/esercizi-subnetting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://vale.cybersec.ovh/posts/_networking/ip-v4/esercizi-subnetting/</guid><description>come diventare pro nel subnetting</description></item></channel></rss>
