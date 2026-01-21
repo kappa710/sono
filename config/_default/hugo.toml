@@ -1,0 +1,25 @@
+theme = "blowfish"
+baseURL = "http://vale.cybersec.ovh/"
+defaultContentLanguage = "en"
+enableEmoji = true
+enableRobotsTXT = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  author = "authors"
+  series = "series"
+
+
+
+[params]
+  [assets]
+    disableFingerprinting = true
+
+
+
+
+

@@ -1,0 +1,2 @@
+scrivi email a mail@dominio.ricevitore
+il tuo client lo invia a SMTP della tua email , SMTP della tua email fa DNS request e vede ip del server SMPT a cui inviare e lo invia a SMPT che gestisce dominio.ricevitore -> server  SMTP  ricevitore fa check e se supera check lo invia a IMAP/POP3 server che lo invia al client del ricevitore

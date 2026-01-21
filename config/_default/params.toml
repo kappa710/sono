@@ -1,0 +1,74 @@
+# -- Theme Options --
+colorScheme = "slate"
+defaultAppearance = "dark"
+autoSwitchAppearance = true
+enableAnimations = true
+enableSearch = true
+enableCodeCopy = true
+defaultBackgroundImage = "background.svg"
+
+
+# Questo attiva l'effetto "blob" fluido in tutto il sito
+backgroundAppearance = "blob"
+
+[main]
+  layout = "background"
+  backgroundAppearance = "blob"
+  enableAnimations = true
+  layoutBackgroundBlur = true
+
+[header]
+  layout = "fixed-gradient"
+  showCanvas = true # ATTIVA IL MOVIMENTO INTERATTIVO (le robe che si muovono)
+
+[homepage]
+  layout = "background"
+  backgroundAppearance = "blob"
+  enableAnimations = true
+  showRecent = true
+  showRecentItems = 5
+  layoutBackgroundBlur = true
+  homepageImage = "background.svg"
+
+
+[article]
+  showHero = true
+  heroStyle = "background"
+  showTableOfContents = true
+  layoutBackgroundHeaderSpace = false # Prova a mettere false qui
+  maxMainWidth = "max-w-screen-xl" 
+  fullWidthLayout = true
+  layoutBackgroundBlur = true 
+
+
+[list]
+  layoutBackgroundHeaderSpace = true
+  showHero = true
+  heroStyle = "background"
+  layoutBackgroundBlur = true
+  groupByYear = false
+
+[footer]
+  showMenu = true
+  showCopyright = true
+  showThemeAttribution = false
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+[taxonomy]
+  showTermCount = true
+  showHero = true
+  heroStyle = "background"
+  series = "series"
+
+
+[term]
+  showHero = true
+  heroStyle = "background"
+  groupByYear = false
+
+[sitemap]
+  excludedKinds = ["taxonomy", "term"]
+
+[assets]
+  disableFingerprinting = true
