@@ -1,430 +1,430 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blowfish</title>
-    <link>http://vale.cybersec.ovh/posts/_networking/</link>
-    <description>Recent content on Blowfish</description>
+    <title>Kappa Cyber</title>
+    <link>http://localhost:1313/sono/posts/_networking/</link>
+    <description>Recent content on Kappa Cyber</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it</language>
     <copyright>© 2026 </copyright>
-    <atom:link href="http://vale.cybersec.ovh/posts/_networking/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/sono/posts/_networking/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/0-guida-per-pnetlab/</link>
+      <link>http://localhost:1313/sono/posts/_networking/0-guida-per-pnetlab/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/0-guida-per-pnetlab/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/0-guida-per-pnetlab/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;1 FAI FUNZIONARE VIRTUALIZZAZIONE AMD VT&#xD;&#xA;    &lt;div id=&#34;1-fai-funzionare-virtualizzazione-amd-vt&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#1-fai-funzionare-virtualizzazione-amd-vt&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;disattiva da funzionalita windows&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;hypervisor&lt;/li&gt;&#xA;&lt;li&gt;sottosistema linux&lt;/li&gt;&#xA;&lt;li&gt;windows machine platform&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;da powershell questo codice&#xA;&lt;code&gt;Set-ItemProperty -Path &amp;quot;HKLM:\SYSTEM\CurrentControlSet\Control\DeviceGuard&amp;quot; -Name &amp;quot;EnableVirtualizationBasedSecurity&amp;quot; -Value 0&lt;/code&gt;&#xA;disattiva da attiva e disattiva funzionalità di windows  hyper V , wsl e piattaforma macchien virtuali&#xA;continua usando questo &lt;a href=&#34;https://www.microsoft.com/en-us/download/details.aspx?id=53337&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;tool&lt;/a&gt;&lt;br&gt;&#xA;se ancora non va usa questa &lt;a href=&#34;https://gns3.com/community/featured/fixing-vt-x-or-amd-v-not-available-in-windows-11-with-vmware-ws-pro-and-player&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;guida&lt;/a&gt;&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;INSTALLA VM WARE&#xD;&#xA;    &lt;div id=&#34;installa-vm-ware&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#installa-vm-ware&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;installa , importa .ova e attiva nelle impostazioni macchina sezione processore AMD V&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/0-topologia-rete/</link>
+      <link>http://localhost:1313/sono/posts/_networking/0-topologia-rete/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/0-topologia-rete/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/0-topologia-rete/</guid>
       <description>&lt;p&gt;![[Pasted image 20251218172131.png]]&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;Bus&#xD;&#xA;    &lt;div id=&#34;bus&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#bus&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;tutti nodi a singolo cavo&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;vantaggi&lt;/th&gt;&#xA;          &lt;th&gt;svantaggi&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;facile da implemtare&lt;/td&gt;&#xA;          &lt;td&gt;1 sigle point of faliure&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;collisioni dati&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;rallentamenti&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&#xD;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;ANELLO&#xD;&#xA;    &lt;div id=&#34;anello&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#anello&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;modo circolare , ogni nodo ha esattamente 2 vicini&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;vantaggi&lt;/th&gt;&#xA;          &lt;th&gt;svantaggi&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;economiche e facili da implementare&lt;/td&gt;&#xA;          &lt;td&gt;1 single point of faliure&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&#xD;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;STELLA&#xD;&#xA;    &lt;div id=&#34;stella&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#stella&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;nodi collegati a hub centrale&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/1--pila-iso-osi/</link>
+      <link>http://localhost:1313/sono/posts/_networking/1--pila-iso-osi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/1--pila-iso-osi/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/1--pila-iso-osi/</guid>
       <description>&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;LIVELLO&lt;/th&gt;&#xA;          &lt;th&gt;NOME&lt;/th&gt;&#xA;          &lt;th&gt;PBU&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;7&lt;/td&gt;&#xA;          &lt;td&gt;Applicazione&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;6&lt;/td&gt;&#xA;          &lt;td&gt;Presentation&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;5&lt;/td&gt;&#xA;          &lt;td&gt;Session&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;4&lt;/td&gt;&#xA;          &lt;td&gt;Transport&lt;/td&gt;&#xA;          &lt;td&gt;segment/datagram&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;3&lt;/td&gt;&#xA;          &lt;td&gt;Network&lt;/td&gt;&#xA;          &lt;td&gt;packet&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2&lt;/td&gt;&#xA;          &lt;td&gt;Data Link&lt;/td&gt;&#xA;          &lt;td&gt;frame&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;          &lt;td&gt;Phisical&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&#xD;&#xA;&lt;h5 class=&#34;relative group&#34;&gt;cosa succede a data dal alto verso il basso&#xD;&#xA;    &lt;div id=&#34;cosa-succede-a-data-dal-alto-verso-il-basso&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#cosa-succede-a-data-dal-alto-verso-il-basso&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h5&gt;&#xD;&#xA;&lt;p&gt;aggiunti data : ENCAPSULATION&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h5 class=&#34;relative group&#34;&gt;cosa succede a data dal basso verso alto&#xD;&#xA;    &lt;div id=&#34;cosa-succede-a-data-dal-basso-verso-alto&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#cosa-succede-a-data-dal-basso-verso-alto&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h5&gt;&#xD;&#xA;&lt;p&gt;data strip off  DE-ENCAPSULATION&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/2-pila-tcp-ip/</link>
+      <link>http://localhost:1313/sono/posts/_networking/2-pila-tcp-ip/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/2-pila-tcp-ip/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/2-pila-tcp-ip/</guid>
       <description>&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Numero&lt;/th&gt;&#xA;          &lt;th&gt;Layer&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;4&lt;/td&gt;&#xA;          &lt;td&gt;Applicazione&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;3&lt;/td&gt;&#xA;          &lt;td&gt;Transport&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2&lt;/td&gt;&#xA;          &lt;td&gt;Network&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;          &lt;td&gt;Link&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&#xD;&#xA;&lt;h5 class=&#34;relative group&#34;&gt;come viene creata connessione tra 2 host ( )&#xD;&#xA;    &lt;div id=&#34;come-viene-creata-connessione-tra-2-host--&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#come-viene-creata-connessione-tra-2-host--&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h5&gt;&#xD;&#xA;&lt;p&gt;TCP&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h5 class=&#34;relative group&#34;&gt;metodo con il quale viene creata connessione tra 2 host&#xD;&#xA;    &lt;div id=&#34;metodo-con-il-quale-viene-creata-connessione-tra-2-host&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#metodo-con-il-quale-viene-creata-connessione-tra-2-host&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h5&gt;&#xD;&#xA;&lt;p&gt;3 way hand shake&#xA;SYNC , SYNC + ACK , ACK&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h5 class=&#34;relative group&#34;&gt;come puo essere bloccata da host creata connessione&#xD;&#xA;    &lt;div id=&#34;come-puo-essere-bloccata-da-host-creata-connessione&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#come-puo-essere-bloccata-da-host-creata-connessione&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h5&gt;&#xD;&#xA;&lt;p&gt;RST ( RESET)&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/5-etherchannel/</link>
+      <link>http://localhost:1313/sono/posts/_networking/5-etherchannel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/5-etherchannel/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/5-etherchannel/</guid>
       <description>&lt;h6 class=&#34;relative group&#34;&gt;Come creare&#xD;&#xA;    &lt;div id=&#34;come-creare&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#come-creare&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h6&gt;&#xD;&#xA;&lt;p&gt;Seleziona le interfacce su cui attivare etherchannel attraverso il range&#xA;Comando : channel-group 1 mode on&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h5 class=&#34;relative group&#34;&gt;come configurare robe su etherchannel&#xD;&#xA;    &lt;div id=&#34;come-configurare-robe-su-etherchannel&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#come-configurare-robe-su-etherchannel&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h5&gt;&#xD;&#xA;&lt;p&gt;esci da  interfacce e usa comando&#xA;interface port-channel 1&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/6-vlan/</link>
+      <link>http://localhost:1313/sono/posts/_networking/6-vlan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/6-vlan/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/6-vlan/</guid>
       <description>&lt;h5 class=&#34;relative group&#34;&gt;cosa è VLAN&#xD;&#xA;    &lt;div id=&#34;cosa-è-vlan&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#cosa-%c3%a8-vlan&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h5&gt;&#xD;&#xA;&lt;p&gt;ci permette di isolare domini di broadcast ( quando inviamo messaggi con dest FF:FF:FF:FF con vlan limitiamo destinatari)&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h6 class=&#34;relative group&#34;&gt;a cosa serve VLAN&#xD;&#xA;    &lt;div id=&#34;a-cosa-serve-vlan&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#a-cosa-serve-vlan&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h6&gt;&#xD;&#xA;&lt;p&gt;sicurezza (impedisce scan nmap) e diminuire la banda usata ( meno ARP )  e scalabilità&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;ATTENTO&#xD;&#xA;    &lt;div id=&#34;attento&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#attento&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;trunk e access e concetto di porta , puoi combinare come vuoi quale native/untagged in trunk basta che dispotivo altra parte porta configurato nella stessa maniera&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/acl--accesso-control-list/</link>
+      <link>http://localhost:1313/sono/posts/_networking/acl--accesso-control-list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/acl--accesso-control-list/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/acl--accesso-control-list/</guid>
       <description>&lt;h4 class=&#34;relative group&#34;&gt;a cose serve ?&#xD;&#xA;    &lt;div id=&#34;a-cose-serve-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#a-cose-serve-&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h4&gt;&#xD;&#xA;&lt;p&gt;sicurezza , regola quali dispositivi hanno accesso alla rete&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h5 class=&#34;relative group&#34;&gt;cosa è ?&#xD;&#xA;    &lt;div id=&#34;cosa-è-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#cosa-%c3%a8-&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h5&gt;&#xD;&#xA;&lt;p&gt;un filtro , che dice a router di permettere o scartare pacchetto&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h4 class=&#34;relative group&#34;&gt;cosa è importante acl&#xD;&#xA;    &lt;div id=&#34;cosa-è-importante-acl&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#cosa-%c3%a8-importante-acl&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h4&gt;&#xD;&#xA;&lt;p&gt;implicit deny  su ogni singola ACL e vengono lette (da numero piu basso a piu alto) finche occorrenza non corrisponde&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/arp/</link>
+      <link>http://localhost:1313/sono/posts/_networking/arp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/arp/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/arp/</guid>
       <description>&lt;h4 class=&#34;relative group&#34;&gt;a cosa serve?&#xD;&#xA;    &lt;div id=&#34;a-cosa-serve&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#a-cosa-serve&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h4&gt;&#xD;&#xA;&lt;p&gt;associare indirizzo IP ( layer 3 ) a MAC address ( layer 2)&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h4 class=&#34;relative group&#34;&gt;perchè serve ?&#xD;&#xA;    &lt;div id=&#34;perchè-serve-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#perch%c3%a8-serve-&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h4&gt;&#xD;&#xA;&lt;p&gt;perchè quando craftiamo il pacchetto ( seguendo pila TCP / IP ) dobbiamo inserire anche info per layer 2 che richiede MAC address di source e dest&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/cli/</link>
+      <link>http://localhost:1313/sono/posts/_networking/cli/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/cli/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/cli/</guid>
       <description>&lt;h6 class=&#34;relative group&#34;&gt;per cosa sta CLI ?&#xD;&#xA;    &lt;div id=&#34;per-cosa-sta-cli-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#per-cosa-sta-cli-&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h6&gt;&#xD;&#xA;&lt;p&gt;Command Line Interface&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h6 class=&#34;relative group&#34;&gt;con che tipo cavo mi connetto a router / switch Cisco&#xD;&#xA;    &lt;div id=&#34;con-che-tipo-cavo-mi-connetto-a-router--switch-cisco&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#con-che-tipo-cavo-mi-connetto-a-router--switch-cisco&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h6&gt;&#xD;&#xA;&lt;p&gt;Rollover cable&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h6 class=&#34;relative group&#34;&gt;come mi connetto da pc a  CLI del router/switch&#xD;&#xA;    &lt;div id=&#34;come-mi-connetto-da-pc-a--cli-del-routerswitch&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#come-mi-connetto-da-pc-a--cli-del-routerswitch&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h6&gt;&#xD;&#xA;&lt;p&gt;PuTTy&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/dhcp/</link>
+      <link>http://localhost:1313/sono/posts/_networking/dhcp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/dhcp/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/dhcp/</guid>
       <description>&lt;p&gt;Dynamic Host Configuration Protocol&lt;/p&gt;&#xA;&lt;p&gt;4 fasi DORA&#xA;DHCP &lt;strong&gt;D&lt;/strong&gt;iscover (broadcast)&#xA;DHCP &lt;strong&gt;O&lt;/strong&gt;ffer (unicast)&#xA;DCHP &lt;strong&gt;R&lt;/strong&gt;equest (dice che accetta) (broadcast)&#xA;ACK    &lt;strong&gt;A&lt;/strong&gt; (unicast)&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h5 class=&#34;relative group&#34;&gt;come è richiesta dhcp inviata da host ?&#xD;&#xA;    &lt;div id=&#34;come-è-richiesta-dhcp-inviata-da-host-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#come-%c3%a8-richiesta-dhcp-inviata-da-host-&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h5&gt;&#xD;&#xA;&lt;p&gt;layer 3 con ip source 0.0.0.0 e ip di destinazione 255.255.255.255&#xA;client invia a porta 68 udp  , server risponde a porta 67&lt;/p&gt;&#xA;&lt;p&gt;cosa è APIPA&#xA;AUTOMATIC PRIVATE IP ADDRESSING&#xA;meccanismo che permette a host di avere proprio ip privato quando non riesce ad avere uno da un dhcp&#xA;&lt;code&gt;169.254.X.X&lt;/code&gt;&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/dispositivi-di-rete/</link>
+      <link>http://localhost:1313/sono/posts/_networking/dispositivi-di-rete/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/dispositivi-di-rete/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/dispositivi-di-rete/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Firewall&lt;/strong&gt; filtra rete attraverso regole&#xA;&lt;strong&gt;IPS&lt;/strong&gt; monitora traffico reale per rilevare anomalie e previene gli attacchi&#xA;&lt;strong&gt;IDS&lt;/strong&gt; monitora traffico reale e generale avvisi&lt;/p&gt;&#xA;&lt;p&gt;Firewall e IPS in linea  a cascata&#xA;IDS in parallelo ascolta passivamente&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/dns/</link>
+      <link>http://localhost:1313/sono/posts/_networking/dns/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/dns/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/dns/</guid>
       <description>&lt;h5 class=&#34;relative group&#34;&gt;cosa fa DNS ?&#xD;&#xA;    &lt;div id=&#34;cosa-fa-dns-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#cosa-fa-dns-&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h5&gt;&#xD;&#xA;&lt;p&gt;risolve nomi di dominio in indirizzi ip&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h4 class=&#34;relative group&#34;&gt;cosa sono i nomi di dominio&#xD;&#xA;    &lt;div id=&#34;cosa-sono-i-nomi-di-dominio&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#cosa-sono-i-nomi-di-dominio&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h4&gt;&#xD;&#xA;&lt;p&gt;hostname + Top-level domain&#xA;esempio:   google(hostname).it ( top - level domain)&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h5 class=&#34;relative group&#34;&gt;come funziona DNS&#xD;&#xA;    &lt;div id=&#34;come-funziona-dns&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#come-funziona-dns&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h5&gt;&#xD;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;il nostro pc interroga il recursive  DNS resolver ( dato da ips o inserito da noi)&lt;/li&gt;&#xA;&lt;li&gt;il recursive DNS server interroga il DNS root nameserver&lt;/li&gt;&#xA;&lt;li&gt;il root server da a recursive DNS ip del DNS TLD nameserver per quel T.D.L&lt;/li&gt;&#xA;&lt;li&gt;il recursive DNS resolver invia richiesta a  DNS TLD nameserver  che risponde con ip del  DNS authoritative&lt;/li&gt;&#xA;&lt;li&gt;il recursive DNS resolver invia richiesta a DNS authoritative  server che risponde con IP  nome di dominio&lt;/li&gt;&#xA;&lt;li&gt;il recursive DNS resolver invia risposta a nostro pc&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&#xD;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;ZONA DNS&#xD;&#xA;    &lt;div id=&#34;zona-dns&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#zona-dns&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;porzione spazio dei nomi di dominio gestista da una organizzazione o amministratore&#xA;ATTENTO : sottodominio puo far parte di stessa zona DNS o altra (Delegazione)&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/icmp/</link>
+      <link>http://localhost:1313/sono/posts/_networking/icmp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/icmp/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/icmp/</guid>
       <description>&lt;p&gt;Internet Control Message Protocol (Layer 3)&#xA;usato per network discovery e security&lt;/p&gt;&#xA;&lt;p&gt;i piu usati comandi sono&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;PING&#xD;&#xA;    &lt;div id=&#34;ping&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#ping&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;ICMP type 8&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;TRACEROUTE&#xD;&#xA;    &lt;div id=&#34;traceroute&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#traceroute&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;permette di rilevare router che pacchetto percorre&#xA;sfrutta TTL&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/interfacce-e-cavi/</link>
+      <link>http://localhost:1313/sono/posts/_networking/interfacce-e-cavi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/interfacce-e-cavi/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/interfacce-e-cavi/</guid>
       <description>&lt;h6 class=&#34;relative group&#34;&gt;Cosa è Ethernet?&#xD;&#xA;    &lt;div id=&#34;cosa-è-ethernet&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#cosa-%c3%a8-ethernet&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h6&gt;&#xD;&#xA;&lt;p&gt;una collezione di standard e protocolli&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h5 class=&#34;relative group&#34;&gt;cosa è un Bit?&#xD;&#xA;    &lt;div id=&#34;cosa-è-un-bit&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#cosa-%c3%a8-un-bit&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h5&gt;&#xD;&#xA;&lt;p&gt;1 o 0&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h6 class=&#34;relative group&#34;&gt;cosa è un Byte?&#xD;&#xA;    &lt;div id=&#34;cosa-è-un-byte&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#cosa-%c3%a8-un-byte&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h6&gt;&#xD;&#xA;&lt;p&gt;8 bit&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h5 class=&#34;relative group&#34;&gt;come misurata velocità ? come archiviazione?&#xD;&#xA;    &lt;div id=&#34;come-misurata-velocità--come-archiviazione&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#come-misurata-velocit%c3%a0--come-archiviazione&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h5&gt;&#xD;&#xA;&lt;p&gt;velocità bit per secondo , archiviazione in byte&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/ip-v6/come-formato-ipv6/</link>
+      <link>http://localhost:1313/sono/posts/_networking/ip-v6/come-formato-ipv6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/ip-v6/come-formato-ipv6/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/ip-v6/come-formato-ipv6/</guid>
       <description>&lt;h3 class=&#34;relative group&#34;&gt;GLOBAL ROUTING PREFIX&#xD;&#xA;    &lt;div id=&#34;global-routing-prefix&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#global-routing-prefix&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;primo blocco da 48 bit (primi 3 gruppi)&#xA;assegnato da ISP&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h4 class=&#34;relative group&#34;&gt;come trovare prefisso&#xD;&#xA;    &lt;div id=&#34;come-trovare-prefisso&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#come-trovare-prefisso&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h4&gt;&#xD;&#xA;&lt;p&gt;caso multiplo di 4 facile&#xA;se non multiplo di 4 devi passare a decimale e da decimale a binario&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;SUBNET IDENTIFIER&#xD;&#xA;    &lt;div id=&#34;subnet-identifier&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#subnet-identifier&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;secondo blocco da 16 bit&#xA;usato da Enterprise per subent&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/ip-v6/configurazione-cisco/</link>
+      <link>http://localhost:1313/sono/posts/_networking/ip-v6/configurazione-cisco/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/ip-v6/configurazione-cisco/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/ip-v6/configurazione-cisco/</guid>
       <description>&lt;p&gt;per attivare routing&#xA;&lt;code&gt;ipv6 unicast-routing&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;vai in interfaccia&#xA;&lt;code&gt;ipv6 address ip/subenet&lt;/code&gt;&#xA;per generare automaticamente interface host da mac address interfaccia&#xA;&lt;code&gt;ipv6 address 2001:db8::/64 eui-64&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;per visualizzare interfacce con ipv6&#xA;&lt;code&gt;show ipv6 interface brief&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;per anycast&#xA;&lt;code&gt;ip address ip/subnet anycast&lt;/code&gt;&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/ip-v6/eui-64/</link>
+      <link>http://localhost:1313/sono/posts/_networking/ip-v6/eui-64/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/ip-v6/eui-64/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/ip-v6/eui-64/</guid>
       <description>&lt;h3 class=&#34;relative group&#34;&gt;passare da MAC a 48 bit a interface identifier (64 bit)&#xD;&#xA;    &lt;div id=&#34;passare-da-mac-a-48-bit-a-interface-identifier-64-bit&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#passare-da-mac-a-48-bit-a-interface-identifier-64-bit&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&#xD;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;1 DIVIDERE MAC in 2&#xD;&#xA;    &lt;div id=&#34;1-dividere-mac-in-2&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#1-dividere-mac-in-2&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;00:1A:2B:3C:4D:5E -&amp;gt; 001A2B   2C4D6E&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;2 INSERIRE IN MEZZO FFFE&#xD;&#xA;    &lt;div id=&#34;2-inserire-in-mezzo-fffe&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#2-inserire-in-mezzo-fffe&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;001A2BFFFE2C4D6E&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;3 inverti il 7 bit (devi passare a binario)&#xD;&#xA;    &lt;div id=&#34;3-inverti-il-7-bit-devi-passare-a-binario&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#3-inverti-il-7-bit-devi-passare-a-binario&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;0  = 0 in decimale -&amp;gt; 0000&#xA;inverto il 7 bit -&amp;gt; 0010 -&amp;gt; 2 in decimale -&amp;gt; 2 in esadecimale&#xA;021&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/ip-v6/ip-v6/</link>
+      <link>http://localhost:1313/sono/posts/_networking/ip-v6/ip-v6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/ip-v6/ip-v6/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/ip-v6/ip-v6/</guid>
       <description>&lt;p&gt;128 bit&#xA;vengono rappresentanti in esadecimali e non piu decimali come ipv4&#xA;4bit (2^4 uguale 16) rappresentano un esadecimale&#xA;ci sono 8 gruppi ognuno ha 4 caratteri in esadecimale separati da :&lt;/p&gt;&#xA;&lt;p&gt;Localhost ::1&#xA;tutte interfacce ::/0&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;SEMPLIFICAZIONI IPV6&#xD;&#xA;    &lt;div id=&#34;semplificazioni-ipv6&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#semplificazioni-ipv6&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;un ipv6 puo essere di questo tipo che è difficile da gestire&#xA;&lt;code&gt;2001:0db8:0000:0000:0000:ff00:0042:8329&lt;/code&gt;&#xA;allora si usano 2 tipi di semplificazione&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/ip-v6/neighbor-discovery-protocol/</link>
+      <link>http://localhost:1313/sono/posts/_networking/ip-v6/neighbor-discovery-protocol/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/ip-v6/neighbor-discovery-protocol/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/ip-v6/neighbor-discovery-protocol/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/ip-v6/solicited-node-multicast-adress/</link>
+      <link>http://localhost:1313/sono/posts/_networking/ip-v6/solicited-node-multicast-adress/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/ip-v6/solicited-node-multicast-adress/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/ip-v6/solicited-node-multicast-adress/</guid>
       <description>&lt;p&gt;calcolato da unicast&#xA;si aggiunge a ff02::1:ff ultimi 6 esadecimali del unicast&lt;/p&gt;&#xA;&lt;p&gt;esempio ff02::1:ffa3:b1&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/ip-v6/tipi-ipv6/</link>
+      <link>http://localhost:1313/sono/posts/_networking/ip-v6/tipi-ipv6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/ip-v6/tipi-ipv6/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/ip-v6/tipi-ipv6/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;GLOBAL UNICAST&#xD;&#xA;    &lt;div id=&#34;global-unicast&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#global-unicast&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;indirizzi pubblici che posso essere usati su internet  (quindi devono essere unici)&#xA;prima solo blocco 2000:/3 ora tutti quelli non usati per altri motivi&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;UNIQUE LOCAL&#xD;&#xA;    &lt;div id=&#34;unique-local&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#unique-local&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;sono indirizzi privati&#xA;FC00::/7 prima ma ora FD&#xA;meglio generare randomicamente rimanenti 40 bit per possibili problemi quando aziende si uniscono ecc&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/load-balancing/</link>
+      <link>http://localhost:1313/sono/posts/_networking/load-balancing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/load-balancing/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/load-balancing/</guid>
       <description>&lt;p&gt;smistamento richieste&#xA;performano health check e se server non risponde invia ad altri server prossime richieste&#xA;ci sono algoritmi (es. Round Robin) che assegnano priorita&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/nat/</link>
+      <link>http://localhost:1313/sono/posts/_networking/nat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/nat/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/nat/</guid>
       <description>&lt;h3 class=&#34;relative group&#34;&gt;perchè ci serve&#xD;&#xA;    &lt;div id=&#34;perchè-ci-serve&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#perch%c3%a8-ci-serve&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;gli ipv4 stanno finendo&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;tipi NAT&#xD;&#xA;    &lt;div id=&#34;tipi-nat&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#tipi-nat&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&#xD;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;NAT STATICO&#xD;&#xA;    &lt;div id=&#34;nat-statico&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#nat-statico&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;1 a 1&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;NAT DINAMICO&#xD;&#xA;    &lt;div id=&#34;nat-dinamico&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#nat-dinamico&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;molti a molti&#xA;ma sempre 1 ip privato per 1 pubblico ma questa volta quello pubblico scelto tra pool&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/port-forwarding/</link>
+      <link>http://localhost:1313/sono/posts/_networking/port-forwarding/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/port-forwarding/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/port-forwarding/</guid>
       <description>&lt;p&gt;applicazione del NAT&#xA;permette di reindirizzare il traffico da una porta di un indirizzo esterno a porta di indirizzare interno&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/routing/</link>
+      <link>http://localhost:1313/sono/posts/_networking/routing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/routing/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/routing/</guid>
       <description>&lt;h5 class=&#34;relative group&#34;&gt;indirizzo ip che di solito si da network LAN&#xD;&#xA;    &lt;div id=&#34;indirizzo-ip-che-di-solito-si-da-network-lan&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#indirizzo-ip-che-di-solito-si-da-network-lan&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h5&gt;&#xD;&#xA;&lt;p&gt;192.168.X.X&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h5 class=&#34;relative group&#34;&gt;indirizzo ip che di solito si da a reti di router&#xD;&#xA;    &lt;div id=&#34;indirizzo-ip-che-di-solito-si-da-a-reti-di-router&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#indirizzo-ip-che-di-solito-si-da-a-reti-di-router&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h5&gt;&#xD;&#xA;&lt;p&gt;10.0.X.X&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h5 class=&#34;relative group&#34;&gt;cosa è gateway&#xD;&#xA;    &lt;div id=&#34;cosa-è-gateway&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#cosa-%c3%a8-gateway&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h5&gt;&#xD;&#xA;&lt;p&gt;funge da punto di ingresso e uscita per traffico dati tra 2  reti ma ha ruolo attivo&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/osfp-adiacenze/</link>
+      <link>http://localhost:1313/sono/posts/_networking/routing/routing-dinamico/osfp-adiacenze/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/osfp-adiacenze/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/routing/routing-dinamico/osfp-adiacenze/</guid>
       <description>&lt;p&gt;la cosa piu importante in configurazione e troubleshooting&#xA;dopo adiacenti possono scambiarsi informazioni network&lt;/p&gt;&#xA;&lt;p&gt;quando ospf abilitato in interfaccia invia OSPF hello a interventi regolari (10 secondi in Ethernet connection)&#xA;Hello message su multicast 224.0.0.5&#xA;inviati in IP header con valore 89&lt;/p&gt;&#xA;&lt;p&gt;STATI NEIGHBORS&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;STATI&lt;/th&gt;&#xA;          &lt;th&gt;SPIEGAZIONE&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;DOWN STATE&lt;/td&gt;&#xA;          &lt;td&gt;R1 invia HELLO a 224.0.0.5 HELLO CONTINEE  PROPRIO RID e RID VICINO 0.0.0.0 perchè non conosce&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;INIT STATE&lt;/td&gt;&#xA;          &lt;td&gt;R2 pacchetto HELLO ricevuto ma il proprio RID non sta in HELLO ricevuto&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2-WAY STATE&lt;/td&gt;&#xA;          &lt;td&gt;R2 invia pacchetto che continere proprio RID e quello appena ricevuto e inserisce nella propria tabella OSPF neihbor , e invia&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2-WAY STATE&lt;/td&gt;&#xA;          &lt;td&gt;invia altro HELLO e entrambi ROUTER&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;DR/BDR ELECTION&lt;/td&gt;&#xA;          &lt;td&gt;non avviene sempre&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;EXSTART&lt;/td&gt;&#xA;          &lt;td&gt;scegliere quale izia scambio Master - SLAVE necessario solo per inizio scambio RID maggiore Master inviando DBD&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;EXCHANGE&lt;/td&gt;&#xA;          &lt;td&gt;si inviano DBD che contengono LSA nel loro SDB (ma senza dettagliate informazioni)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;LOADING&lt;/td&gt;&#xA;          &lt;td&gt;LSR link state request per avere LSA che non hanno , router risponde con LSU che contine  LSA , LSAck&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;FULL STATE&lt;/td&gt;&#xA;          &lt;td&gt;hanno identiche LSDB ma continuano ad inviare ogni pacchetto 10 secondi per mantenere&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&#xD;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;REQUISITI PER ROUTER VICINI&#xD;&#xA;    &lt;div id=&#34;requisiti-per-router-vicini&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#requisiti-per-router-vicini&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;1 stessa area&#xA;2 interfacce stessa subnet&#xA;3 OSPF non shutdown&#xA;4 OSPF RID diversi&#xA;5 router devono avere tra loro stesso hello e dead timer&#xA;6 Stessa autenticazione&#xA;7 stessa MTU&#xA;8 OSPF network type uguale&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/ospf-assegnazione-rid/</link>
+      <link>http://localhost:1313/sono/posts/_networking/routing/routing-dinamico/ospf-assegnazione-rid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/ospf-assegnazione-rid/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/routing/routing-dinamico/ospf-assegnazione-rid/</guid>
       <description>&lt;h5 class=&#34;relative group&#34;&gt;ASSEGNAZIONE RID&#xD;&#xA;    &lt;div id=&#34;assegnazione-rid&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#assegnazione-rid&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h5&gt;&#xD;&#xA;&lt;p&gt;controlla se non assegnato in modo diretto con router id comando&#xA;se non prova a usare piu alto ip loopback (per router loopback è interfaccia virtuale creato da amministratore)&#xA;se fallisce usa ip piu alto di quelli non loopback (reale)&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;interfacce loopback&#xD;&#xA;    &lt;div id=&#34;interfacce-loopback&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#interfacce-loopback&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;virtuale , sempre up a meno che sistemista la spegne&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/ospf-metric/</link>
+      <link>http://localhost:1313/sono/posts/_networking/routing/routing-dinamico/ospf-metric/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/ospf-metric/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/routing/routing-dinamico/ospf-metric/</guid>
       <description>&lt;p&gt;ospf metric = cost&#xA;calcolato da bandwitdch (speed) del interfaccia&#xA;&lt;code&gt;reference bandwidth / value interface bandwidth&lt;/code&gt;&#xA;reference bandwitdh sempre =100 mbs&#xA;ricorda se valore minore di 1 diventa 1&#xA;interface 1000 = 1&#xA;interface 10000 = 1&#xA;puoi settare tu cost&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/ospf-network-type/</link>
+      <link>http://localhost:1313/sono/posts/_networking/routing/routing-dinamico/ospf-network-type/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/ospf-network-type/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/routing/routing-dinamico/ospf-network-type/</guid>
       <description>&lt;p&gt;OSPF BROACAST NETOWKR TYPE&#xA;abilitato su ethernet and FDDI interfacce in default&#xA;Router dinamicamente scopre vicini sendendo HELLO OSPF packetsu multicast 224.0.0.5&#xA;DR (designated router) e B(ackup)BR devono essere  eletti per ogni subnet&#xA;Router non DR o BDR è DROther&lt;/p&gt;&#xA;&lt;p&gt;COME ELETTI DR/BDR&#xA;1 OSPF interfaccia priorita (ma uguali per default 1)&#xA;2 RID piu alta&lt;/p&gt;&#xA;&lt;p&gt;router faranno piena addiacenze OSPF con BR e BDR del segmento nel network type BROADCAST&#xA;DROther non inviano LSA tra loro&#xA;F/C indica quanti FULL&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/ospf/</link>
+      <link>http://localhost:1313/sono/posts/_networking/routing/routing-dinamico/ospf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/ospf/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/routing/routing-dinamico/ospf/</guid>
       <description>&lt;p&gt;Interior Protocol&#xA;&lt;strong&gt;Link State protocol&lt;/strong&gt; Ogni router conosce tutta topologia: ogni router invia informazione su tutti i suoi link collegati ad ogni router nella rete tramite flooding e poi ogni router calcola proprie path&lt;/p&gt;&#xA;&lt;p&gt;Funzionamento in breve:&#xA;ogni router floodera LSA finche tutti router del router avranno stessa mappa della rere (LSDB)&lt;/p&gt;&#xA;&lt;p&gt;OSPF funziona per Aree&#xA;cosi ridotto tempo per calcolare rotte&#xA;meno richieste hardware (memoria , processore)&lt;/p&gt;&#xA;&lt;p&gt;area = set di router che condividono stessa LSDB&#xA;AREA 0 BACKBONE speciale ogni altre aree devono essere connesse per forza a questa&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/tipi-lsa/</link>
+      <link>http://localhost:1313/sono/posts/_networking/routing/routing-dinamico/tipi-lsa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/routing/routing-dinamico/tipi-lsa/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/routing/routing-dinamico/tipi-lsa/</guid>
       <description>&lt;p&gt;ci sono 11 ma per CCNA 3&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;TYPE&lt;/th&gt;&#xA;          &lt;th&gt;NOME&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;          &lt;td&gt;ROUTER LSA&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2&lt;/td&gt;&#xA;          &lt;td&gt;NETOWRK LSA&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;5&lt;/td&gt;&#xA;          &lt;td&gt;AS  EXTERNAL LSA&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&#xD;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;ROUTER LSA&#xD;&#xA;    &lt;div id=&#34;router-lsa&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#router-lsa&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;ogni router OSPF genera questo tipo&#xA;router identificato da RID&#xA;lista i network attaccatai al roter OSPF&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;NETOWRK LSA&#xD;&#xA;    &lt;div id=&#34;netowrk-lsa&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#netowrk-lsa&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;generato da DR  di ogni multi access network (broadcast)&#xA;lista router attaccati al multi-access network&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/routing/routing-statico/</link>
+      <link>http://localhost:1313/sono/posts/_networking/routing/routing-statico/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/routing/routing-statico/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/routing/routing-statico/</guid>
       <description>&lt;h5 class=&#34;relative group&#34;&gt;indirizzo ip che di solito si da a reti di router&#xD;&#xA;    &lt;div id=&#34;indirizzo-ip-che-di-solito-si-da-a-reti-di-router&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#indirizzo-ip-che-di-solito-si-da-a-reti-di-router&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h5&gt;&#xD;&#xA;&lt;p&gt;10.0.X.X&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h5 class=&#34;relative group&#34;&gt;cosa è gateway&#xD;&#xA;    &lt;div id=&#34;cosa-è-gateway&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#cosa-%c3%a8-gateway&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h5&gt;&#xD;&#xA;&lt;p&gt;funge da punto di ingresso e uscita per traffico dati tra 2  reti ma ha ruolo attivo&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h5 class=&#34;relative group&#34;&gt;come viene selezionato percorso da fare ? meglio valore grande o piccolo&#xD;&#xA;    &lt;div id=&#34;come-viene-selezionato-percorso-da-fare--meglio-valore-grande-o-piccolo&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#come-viene-selezionato-percorso-da-fare--meglio-valore-grande-o-piccolo&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h5&gt;&#xD;&#xA;&lt;p&gt;distanza amministrativa , piccolo&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/routing/tabella-routing/</link>
+      <link>http://localhost:1313/sono/posts/_networking/routing/tabella-routing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/routing/tabella-routing/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/routing/tabella-routing/</guid>
       <description>&lt;p&gt;L -&amp;gt; locale -&amp;gt; ip che si trova su interfaccia con /32&#xA;C -&amp;gt; connesso -&amp;gt; subnet che si puo accedere da quella interfaccia&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/spanning-tree-protocol/1-introduzione/</link>
+      <link>http://localhost:1313/sono/posts/_networking/spanning-tree-protocol/1-introduzione/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/spanning-tree-protocol/1-introduzione/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/spanning-tree-protocol/1-introduzione/</guid>
       <description>&lt;p&gt;Se mettiamo tanti switch per ridondanza -&amp;gt; problema BROADCAST STORM e MAC ADDRESS FLAPPING&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h4 class=&#34;relative group&#34;&gt;BROADCAST STORM&#xD;&#xA;    &lt;div id=&#34;broadcast-storm&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#broadcast-storm&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h4&gt;&#xD;&#xA;&lt;p&gt;esempio richiesta ARP -&amp;gt; switch flood a tutte le interfacce tranne quella inviata e tutti swith fanno lo stesso e cosi si crea broadcast storm perchè continua fino alla fine&#xA;a layer 3 sta TTL a layer 2 non sta quindi fino alla fine&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/spanning-tree-protocol/2-classico-stp/</link>
+      <link>http://localhost:1313/sono/posts/_networking/spanning-tree-protocol/2-classico-stp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/spanning-tree-protocol/2-classico-stp/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/spanning-tree-protocol/2-classico-stp/</guid>
       <description>&lt;h3 class=&#34;relative group&#34;&gt;algoritmo 1&#xD;&#xA;    &lt;div id=&#34;algoritmo-1&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#algoritmo-1&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;eleggere il root bridge&lt;/li&gt;&#xA;&lt;li&gt;selezionare le root ports per ogni switch diverso da root bridge&lt;/li&gt;&#xA;&lt;li&gt;selezionare le porte disegnate&lt;/li&gt;&#xA;&lt;li&gt;bloccare le porte non disegnate&lt;/li&gt;&#xA;&lt;li&gt;monitorare per fallimenti che possono bloccare le porte disegnate per sbloccare quelle disegnate&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&#xD;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;1 elezione Root bridge&#xD;&#xA;    &lt;div id=&#34;1-elezione-root-bridge&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#1-elezione-root-bridge&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;quando switch viene avviato pensa di essere root switch&#xA;switch invia HELLO BPDU a ogni interfaccia -&amp;gt; se switch riceve  HELLO BPDU minore allora non è piu root e tutti switch alla fine eleggono uno root&#xA;dopo designazione switch non non inviano PBDU ma forwardano&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/tls-e-https/</link>
+      <link>http://localhost:1313/sono/posts/_networking/tls-e-https/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/tls-e-https/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/tls-e-https/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;TLS&#xD;&#xA;    &lt;div id=&#34;tls&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#tls&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;protocollo crittografico che opera al transport layer&#xA;fornisce integrita e riservatezza (CI del CIA)&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;HTTPS&#xD;&#xA;    &lt;div id=&#34;https&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#https&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;è HTTP su TLS&lt;/p&gt;&#xA;&lt;p&gt;3 FASI&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;3 way handshake del TCP (SYN,SYN+ACK,ACK)&lt;/li&gt;&#xA;&lt;li&gt;creare sessione tls&lt;/li&gt;&#xA;&lt;li&gt;comunicare tramite http&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/traceroute/</link>
+      <link>http://localhost:1313/sono/posts/_networking/traceroute/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/traceroute/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/traceroute/</guid>
       <description>&lt;p&gt;traceroute = funziona con ping e ttl si invia ttl pari a 1 e il router deve rispondere con ICMP Time-to-Live a chi ha fatto richiesta&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/traffic-shaping/</link>
+      <link>http://localhost:1313/sono/posts/_networking/traffic-shaping/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/traffic-shaping/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/traffic-shaping/</guid>
       <description>&lt;h6 class=&#34;relative group&#34;&gt;a cosa serve&#xD;&#xA;    &lt;div id=&#34;a-cosa-serve&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#a-cosa-serve&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h6&gt;&#xD;&#xA;&lt;p&gt;gestire rete  come se fossimo dei vigili&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h6 class=&#34;relative group&#34;&gt;come viene configurare traffico rete&#xD;&#xA;    &lt;div id=&#34;come-viene-configurare-traffico-rete&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#come-viene-configurare-traffico-rete&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h6&gt;&#xD;&#xA;&lt;p&gt;con 2 shaper uno per upload , altro per download&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h6 class=&#34;relative group&#34;&gt;nomi traffic shaper per download / upload&#xD;&#xA;    &lt;div id=&#34;nomi-traffic-shaper-per-download--upload&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#nomi-traffic-shaper-per-download--upload&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h6&gt;&#xD;&#xA;&lt;p&gt;upload : shared&#xA;download : reverse&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://vale.cybersec.ovh/posts/_networking/vpn/</link>
+      <link>http://localhost:1313/sono/posts/_networking/vpn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/vpn/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/vpn/</guid>
       <description>&lt;p&gt;per VPN abbiamo bisogno di tunnel  , subnet , interfaccia di rete virtuale sulla quale vengono inviati pacchetto con destinazione subnet della vpn (Allowed Ip)&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h5 class=&#34;relative group&#34;&gt;come possiamo vedere vpn&#xD;&#xA;    &lt;div id=&#34;come-possiamo-vedere-vpn&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#come-possiamo-vedere-vpn&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h5&gt;&#xD;&#xA;&lt;p&gt;tunnel&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h6 class=&#34;relative group&#34;&gt;topologie vpn&#xD;&#xA;    &lt;div id=&#34;topologie-vpn&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#topologie-vpn&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h6&gt;&#xD;&#xA;&lt;p&gt;mesh&#xA;partial mesh&#xA;hub and spoke&#xA;si dividono per ridondanza / scalabilità / banda&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>ip4 intro</title>
-      <link>http://vale.cybersec.ovh/posts/_networking/ip-v4/ip-v4/</link>
+      <link>http://localhost:1313/sono/posts/_networking/ip-v4/ip-v4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/ip-v4/ip-v4/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/ip-v4/ip-v4/</guid>
       <description>&lt;h3 class=&#34;relative group&#34;&gt;prerequisiti&#xD;&#xA;    &lt;div id=&#34;prerequisiti&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#prerequisiti&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&#xD;&#xA;&lt;h5 class=&#34;relative group&#34;&gt;trasformazione numero da decimale e binario e viceversa&#xD;&#xA;    &lt;div id=&#34;trasformazione-numero-da-decimale-e-binario-e-viceversa&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#trasformazione-numero-da-decimale-e-binario-e-viceversa&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h5&gt;&#xD;&#xA;&lt;p&gt;AGGIUNGI IMMAGINI&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h6 class=&#34;relative group&#34;&gt;cosa è idirizzo IP&#xD;&#xA;    &lt;div id=&#34;cosa-è-idirizzo-ip&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#cosa-%c3%a8-idirizzo-ip&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h6&gt;&#xD;&#xA;&lt;p&gt;sono 32 bit ( 4 ottetti ) che identificano unicamente un host in &lt;strong&gt;quella rete&lt;/strong&gt;&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h6 class=&#34;relative group&#34;&gt;come puo essere un indirizzo ip?&#xD;&#xA;    &lt;div id=&#34;come-puo-essere-un-indirizzo-ip&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#come-puo-essere-un-indirizzo-ip&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h6&gt;&#xD;&#xA;&lt;p&gt;privato o pubblico&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Privati vs Pubblici</title>
-      <link>http://vale.cybersec.ovh/posts/_networking/ip-v4/privati-vs-pubblici/</link>
+      <link>http://localhost:1313/sono/posts/_networking/ip-v4/privati-vs-pubblici/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/ip-v4/privati-vs-pubblici/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/ip-v4/privati-vs-pubblici/</guid>
       <description>&lt;p&gt;Gli indirzzi ipv4 si dividono in Privati e Pubblici&lt;/p&gt;&#xA;&#xD;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;IP PUBBLICI&#xD;&#xA;    &lt;div id=&#34;ip-pubblici&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#ip-pubblici&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;CLASSE&lt;/th&gt;&#xA;          &lt;th&gt;RANGE&lt;/th&gt;&#xA;          &lt;th&gt;DIFFERENZA&lt;/th&gt;&#xA;          &lt;th&gt;TIPO&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;A&lt;/td&gt;&#xA;          &lt;td&gt;1-126&lt;/td&gt;&#xA;          &lt;td&gt;+128&lt;/td&gt;&#xA;          &lt;td&gt;grandi reti&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;B&lt;/td&gt;&#xA;          &lt;td&gt;128-191&lt;/td&gt;&#xA;          &lt;td&gt;+64&lt;/td&gt;&#xA;          &lt;td&gt;reti medie&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;C&lt;/td&gt;&#xA;          &lt;td&gt;192-223&lt;/td&gt;&#xA;          &lt;td&gt;+32&lt;/td&gt;&#xA;          &lt;td&gt;reti piccole&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;D&lt;/td&gt;&#xA;          &lt;td&gt;224-239&lt;/td&gt;&#xA;          &lt;td&gt;+16&lt;/td&gt;&#xA;          &lt;td&gt;multicast&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;E&lt;/td&gt;&#xA;          &lt;td&gt;240-255&lt;/td&gt;&#xA;          &lt;td&gt;+16&lt;/td&gt;&#xA;          &lt;td&gt;speriementali&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&#xD;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;IP PRIVATI&#xD;&#xA;    &lt;div id=&#34;ip-privati&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#ip-privati&#34; aria-label=&#34;Ancora&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Indirizzi privati per convenzione fanno parta di queste subnet&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Subnetting CHEATSHEETS</title>
-      <link>http://vale.cybersec.ovh/posts/_networking/ip-v4/esercizi-subnetting/</link>
+      <link>http://localhost:1313/sono/posts/_networking/ip-v4/esercizi-subnetting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://vale.cybersec.ovh/posts/_networking/ip-v4/esercizi-subnetting/</guid>
+      <guid>http://localhost:1313/sono/posts/_networking/ip-v4/esercizi-subnetting/</guid>
       <description>come diventare pro nel subnetting</description>
       
     </item>
