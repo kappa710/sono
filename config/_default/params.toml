@@ -42,7 +42,7 @@ backgroundAppearance = "blob"
 
 
 [list]
-  layoutBackgroundHeaderSpace = true
+  layoutBackgroundHeaderSpace = false
   showHero = true
   heroStyle = "background"
   layoutBackgroundBlur = true
