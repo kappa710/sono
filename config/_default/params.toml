@@ -1,7 +1,7 @@
 # -- Theme Options --
 colorScheme = "slate"
 defaultAppearance = "dark"
-autoSwitchAppearance = true
+autoSwitchAppearance = false
 enableAnimations = true
 enableSearch = true
 enableCodeCopy = true
@@ -18,8 +18,7 @@ backgroundAppearance = "blob"
   layoutBackgroundBlur = true
 
 [header]
-  layout = "fixed-gradient"
-  showCanvas = true # ATTIVA IL MOVIMENTO INTERATTIVO (le robe che si muovono)
+  layout = "fixed-fill-blur"
 
 [homepage]
   layout = "background"
@@ -39,6 +38,7 @@ backgroundAppearance = "blob"
   maxMainWidth = "max-w-screen-xl" 
   fullWidthLayout = true
   layoutBackgroundBlur = true 
+  article.showZenMode = false
 
 
 [list]
