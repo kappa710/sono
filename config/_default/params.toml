@@ -1,6 +1,6 @@
 # -- Theme Options --
 colorScheme = "slate"
-defaultAppearance = "light"
+defaultAppearance = "dark"
 autoSwitchAppearance = false
 enableAnimations = true
 enableSearch = true
