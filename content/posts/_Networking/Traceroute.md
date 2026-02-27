@@ -1,1 +1,0 @@
-traceroute = funziona con ping e ttl si invia ttl pari a 1 e il router deve rispondere con ICMP Time-to-Live a chi ha fatto richiesta

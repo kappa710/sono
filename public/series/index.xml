@@ -9,15 +9,5 @@
     <copyright>© 2026 </copyright>
     <atom:link href="http://localhost:1313/sono/series/index.xml" rel="self" type="application/rss+xml" />
     
-    <item>
-      <title>Ehi</title>
-      <link>http://localhost:1313/sono/series/ehi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/sono/series/ehi/</guid>
-      <description></description>
-      
-    </item>
-    
   </channel>
 </rss>

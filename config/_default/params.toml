@@ -1,6 +1,6 @@
 # -- Theme Options --
 colorScheme = "slate"
-defaultAppearance = "dark"
+defaultAppearance = "light"
 autoSwitchAppearance = false
 enableAnimations = true
 enableSearch = true
@@ -18,7 +18,7 @@ backgroundAppearance = "blob"
   layoutBackgroundBlur = true
 
 [header]
-  layout = "fixed-fill"
+  layout = "fixed"
 
 [homepage]
   layout = "background"

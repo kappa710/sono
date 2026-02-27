@@ -1,1 +1,0 @@
-permette a piu persone di lavorare su stesso progetto 
